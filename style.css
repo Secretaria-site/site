@@ -831,9 +831,7 @@ footer small{
 
 }
 
-/* ===========================
-   TUTORIAIS
-=========================== */
+
 
 .tutorial{
     display:flex;
@@ -887,4 +885,60 @@ footer small{
 .botao-pdf:hover{
     background:#008C52;
     transform:translateY(-2px);
+}
+
+
+
+@media (max-width: 768px){
+
+    header{
+        width:95%;
+        padding:15px;
+        top:10px;
+    }
+
+    .logo{
+        flex:1;
+        display:flex;
+        align-items:center;
+        gap:12px;
+        min-width:0;
+    }
+
+    .logo-if{
+        width:130px;
+        height:55px;
+        flex-shrink:0;
+    }
+
+    .logo h1{
+        font-size:18px;
+        line-height:1.2;
+    }
+
+    .logo span{
+        font-size:12px;
+    }
+
+    .acoes{
+        gap:8px;
+    }
+
+    .acoes button{
+        width:42px;
+        height:42px;
+    }
+
+    .hero{
+        padding:60px 20px;
+    }
+
+    .hero h2{
+        font-size:32px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
 }
