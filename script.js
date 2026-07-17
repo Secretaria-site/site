@@ -572,7 +572,89 @@ Após a redefinição, a nova senha será válida tanto para o SUAP quanto para 
 `
 },
 
+{
+    id:6,
+    titulo:"Como cadastrar justificativa de atestado",
+    descricao:"Aprenda a enviar seu atestado pelo SUAP.",
+    palavras:["atestado","justificativa","falta","abono","suap","documento"],
+    conteudo:`
 
+<h2>Como cadastrar justificativa de atestado</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+<h3>Passo 1 - Acesse o SUAP</h3>
+
+<p>
+Entre no sistema do SUAP pelo link abaixo:
+</p>
+
+<p>
+<a href="https://suap.ifmt.edu.br/" target="_blank" rel="noopener noreferrer">
+Clique aqui para acessar o SUAP
+</a>
+</p>
+
+</div>
+
+<div class="passo">
+<h3>Passo 2 - Clique na sua foto de perfil</h3>
+
+<p>
+Após entrar no sistema, clique na sua foto de perfil localizada no canto superior da tela.
+</p>
+
+<img src="atestado/atestado1.png" alt="Foto de perfil no SUAP">
+
+<img src="atestado/atestado2.png" alt="Menu da foto de perfil">
+
+</div>
+
+<div class="passo">
+<h3>Passo 3 - Acesse os Requerimentos</h3>
+
+<p>
+No menu exibido, selecione a opção <strong>"Requerimentos"</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+<h3>Passo 4 - Clique em "Cadastrar Justificativa"</h3>
+
+<p>
+Na página de requerimentos, clique na opção <strong>"Cadastrar Justificativa"</strong>.
+</p>
+
+<img src="atestado/atestado3.png" alt="Cadastrar Justificativa">
+
+</div>
+
+<div class="passo">
+<h3>Passo 5 - Preencha as informações</h3>
+
+<p>
+Informe os dados solicitados pelo sistema e anexe o arquivo do seu atestado médico.
+</p>
+
+</div>
+
+<div class="passo">
+<h3>Passo 6 - Salve a solicitação</h3>
+
+<p>
+Após conferir todas as informações, clique em <strong>"Salvar"</strong> para enviar sua justificativa.
+</p>
+
+<img src="atestado/atestado4.png" alt="Salvar justificativa">
+
+</div>
+
+</div>
+
+`
+},
 
 {
     id:7,
