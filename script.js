@@ -574,7 +574,7 @@ Após a redefinição, a nova senha será válida tanto para o SUAP quanto para 
 
 {
     id:6,
-    titulo:"Como cadastrar justificativa de atestado",
+    titulo:"Como cadastrar justificativa de falta",
     descricao:"Aprenda a enviar seu atestado pelo SUAP.",
     palavras:["atestado","justificativa","falta","abono","suap","documento"],
     conteudo:`
@@ -607,7 +607,7 @@ Após entrar no sistema, clique na sua foto de perfil localizada no canto superi
 
 <img src="atestado/atestado1.png" alt="Foto de perfil no SUAP">
 
-<img src="atestado/atestado2.png" alt="Menu da foto de perfil">
+<img src="atestado/atestado2.jpeg" alt="Menu da foto de perfil">
 
 </div>
 
@@ -627,7 +627,7 @@ No menu exibido, selecione a opção <strong>"Requerimentos"</strong>.
 Na página de requerimentos, clique na opção <strong>"Cadastrar Justificativa"</strong>.
 </p>
 
-<img src="atestado/atestado3.png" alt="Cadastrar Justificativa">
+<img src="atestado/atestado3.jpeg" alt="Cadastrar Justificativa">
 
 </div>
 
@@ -647,7 +647,7 @@ Informe os dados solicitados pelo sistema e anexe o arquivo do seu atestado méd
 Após conferir todas as informações, clique em <strong>"Salvar"</strong> para enviar sua justificativa.
 </p>
 
-<img src="atestado/atestado4.png" alt="Salvar justificativa">
+<img src="atestado/atestado4.jpeg" alt="Salvar justificativa">
 
 </div>
 
