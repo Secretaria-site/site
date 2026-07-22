@@ -1523,11 +1523,23 @@ Após realizar o download, preencha todos os campos do documento com atenção e
 
 <div class="passo">
 
-<h3>Passo 3 - Entre em contato com a Coordenação do Curso</h3>
+<div class="passo">
+
+<h3>Passo 3 - Reúna a documentação e entre em contato com a Coordenação do Curso</h3>
 
 <p>
-Com o formulário totalmente preenchido, entre em contato com a <strong>Coordenação do seu curso</strong> para dar continuidade ao processo.
+Com o formulário totalmente preenchido, reúna os documentos abaixo e entre em contato com a <strong>Coordenação do seu curso</strong> para dar continuidade ao processo:
 </p>
+
+<ul>
+<li><strong>II)</strong> Histórico escolar atualizado, contendo o nome do curso e dos componentes curriculares, com especificação do período em que foram cursados, porcentagens de frequência, carga horária e a média ou conceito final;</li>
+
+<li><strong>III)</strong> Ementa ou plano de ensino dos componentes curriculares cursados com aproveitamento, equivalentes ao componente pleiteado, contendo a carga horária e a bibliografia utilizada, assinada por um representante da instituição de origem;</li>
+
+<li><strong>IV)</strong> Documento expedido pela instituição de origem em que conste o número e a data de autorização ou reconhecimento do curso;</li>
+
+<li><strong>V)</strong> Projeto Pedagógico do Curso (PPC).</li>
+</ul>
 
 </div>
 
