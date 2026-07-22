@@ -1523,7 +1523,6 @@ Após realizar o download, preencha todos os campos do documento com atenção e
 
 <div class="passo">
 
-<div class="passo">
 
 <h3>Passo 3 - Reúna a documentação e entre em contato com a Coordenação do Curso</h3>
 
