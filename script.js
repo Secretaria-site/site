@@ -1484,6 +1484,67 @@ PPC Técnico em Agricultura
 
 `
 },
+{
+    id:17,
+    titulo:"Aproveitamento de Estudos",
+    descricao:"Saiba como solicitar o aproveitamento de estudos.",
+    palavras:["aproveitamento","disciplinas","equivalência","requerimento","estudos"],
+    conteudo:`
+
+<h2>Aproveitamento de Estudos</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>Passo 1 - Faça o download do documento</h3>
+
+<p>
+Baixe o formulário de <strong>Aproveitamento de Estudos</strong> clicando no botão abaixo.
+</p>
+
+<p>
+<a class="botao-pdf" href="https://docs.google.com/document/d/1f5XxuIFUNHoefyj5buA7nouZuWAsf5gbyrAHTOMPlJ0/edit?usp=sharing" target="_blank">
+Baixar Formulário de Aproveitamento de Estudos
+</a>
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 2 - Preencha o formulário</h3>
+
+<p>
+Após realizar o download, preencha todos os campos do documento com atenção e confira se todas as informações estão corretas.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 3 - Entre em contato com a Coordenação do Curso</h3>
+
+<p>
+Com o formulário totalmente preenchido, entre em contato com a <strong>Coordenação do seu curso</strong> para dar continuidade ao processo.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Importante</h3>
+
+<p>
+A solicitação de aproveitamento de estudos deve ser realizada <strong>dentro do prazo previsto no calendário acadêmico</strong>, normalmente no início de cada semestre letivo.
+</p>
+
+</div>
+
+</div>
+
+`
+},
 ];
 
 // =======================
