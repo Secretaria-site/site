@@ -1587,6 +1587,67 @@ Calendário Acadêmico
 
 `
 },
+{
+    id:19,
+    titulo:"Rematrícula Online",
+    descricao:"Aprenda como realizar a renovação de matrícula pelo SUAP.",
+    palavras:["rematrícula","rematricula","renovação","renovacao","matrícula","suap"],
+    conteudo:`
+
+<h2>Rematrícula Online</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>Passo 1 - Acesse o SUAP</h3>
+
+<p>
+Entre no SUAP utilizando seu login e senha.
+</p>
+
+<p>
+<a href="https://suap.ifmt.edu.br/" target="_blank" rel="noopener noreferrer">
+Clique aqui para acessar o SUAP
+</a>
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 2 - Acesse a Rematrícula</h3>
+
+<p>
+Após entrar no sistema, clique em <strong>"Faça sua matrícula online"</strong> ou no bloco laranja <strong>"Renovação de Matrícula"</strong>.
+</p>
+
+<img src="img/rema/reno.png" alt="Renovação de Matrícula">
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 3 - Preencha as informações</h3>
+
+<p>
+Preencha todas as informações solicitadas. Caso seja necessário, atualize seu cadastro e responda ao <strong>Formulário de Caracterização Socioeconômica</strong>.
+</p>
+
+</div>
+<div class="passo">
+
+<h3>Importante</h3>
+
+<p>
+Para <strong>cursos semestrais</strong>, a rematrícula deve ser realizada <strong>a cada semestre</strong>. Já para <strong>cursos anuais</strong>, a rematrícula deve ser realizada <strong>uma vez por ano.</strong>
+</p>
+
+</div>
+</div>
+
+`
+},
 ];
 
 // =======================
