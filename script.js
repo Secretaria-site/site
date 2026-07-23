@@ -756,7 +756,7 @@ Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@
 <div class="tutorial">
 
 <div class="passo">
-<h3>Passo 1 - O que é a Assistência Estudantil?</h3>
+<h3>O que é a Assistência Estudantil?</h3>
 
 <p>
 A Assistência Estudantil tem como objetivo promover a permanência e o sucesso acadêmico dos estudantes, oferecendo apoio financeiro e ações que contribuam para a conclusão do curso.
@@ -768,7 +768,7 @@ A Assistência Estudantil tem como objetivo promover a permanência e o sucesso 
 
 
 <div class="passo">
-<h3>Passo 2 - Finalidades do Programa</h3>
+<h3> Finalidades do Programa</h3>
 
 <p>
 O Programa de Assistência Estudantil busca:
@@ -786,7 +786,7 @@ O Programa de Assistência Estudantil busca:
 
 
 <div class="passo">
-<h3>Passo 3 - Auxílio Alimentação</h3>
+<h3>Auxílio Alimentação</h3>
 
 <p>
 Auxílio financeiro destinado a contribuir com as despesas de alimentação dos estudantes em situação de vulnerabilidade socioeconômica.
@@ -797,7 +797,7 @@ Auxílio financeiro destinado a contribuir com as despesas de alimentação dos 
 
 
 <div class="passo">
-<h3>Passo 4 - Auxílio Moradia</h3>
+<h3>Auxílio Moradia</h3>
 
 <p>
 Auxílio financeiro destinado a estudantes que:
@@ -812,7 +812,7 @@ Auxílio financeiro destinado a estudantes que:
 
 
 <div class="passo">
-<h3>Passo 5 - Monitoria Didática</h3>
+<h3>Monitoria Didática</h3>
 
 <p>
 A Monitoria Didática tem como objetivo:
@@ -828,7 +828,7 @@ A Monitoria Didática tem como objetivo:
 
 
 <div class="passo">
-<h3>Passo 6 - Bolsa Permanência</h3>
+<h3>Bolsa Permanência</h3>
 
 <p>
 Programa destinado a contribuir para a permanência e a conclusão dos estudos, promovendo:
@@ -844,7 +844,7 @@ Programa destinado a contribuir para a permanência e a conclusão dos estudos, 
 
 
 <div class="passo">
-<h3>Passo 7 - Quem pode solicitar?</h3>
+<h3>Quem pode solicitar?</h3>
 
 <p>
 Para participar dos programas de Assistência Estudantil, o estudante deve:
@@ -862,7 +862,7 @@ Para participar dos programas de Assistência Estudantil, o estudante deve:
 
 
 <div class="passo">
-<h3>Passo Final - Acompanhe os editais</h3>
+<h3>Acompanhe os editais</h3>
 
 <p>
 Os editais da Assistência Estudantil são publicados periodicamente pelo IFMT.
