@@ -1648,6 +1648,136 @@ Para <strong>cursos semestrais</strong>, a rematrícula deve ser realizada <stro
 
 `
 },
+{
+    id:20,
+    titulo:"Solicitação de Estágio",
+    descricao:"Aprenda como solicitar o estágio obrigatório ou não obrigatório.",
+    palavras:["estágio","estagio","plano de estágio","termo","carta de aceite","orientador","jotform","estágio obrigatório","estágio não obrigatório"],
+    conteudo:`
+
+<h2>Solicitação de Estágio</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>Passo 1 - Acesse o formulário</h3>
+
+<p>
+A solicitação do estágio deve ser realizada por meio do formulário eletrônico.
+</p>
+
+<p>
+<a href="https://form.jotform.com/211865464887673" target="_blank" rel="noopener noreferrer">
+Clique aqui para acessar o formulário de solicitação de estágio
+</a>
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 2 - Baixe os documentos</h3>
+
+<p>
+Após preencher o formulário, serão gerados <strong>4 documentos em PDF</strong>. Baixe apenas os documentos correspondentes ao seu tipo de estágio:
+</p>
+
+<ul>
+<li><strong>Estágio Obrigatório:</strong> Plano de Estágio e Carta de Aceite de Orientação.</li>
+<li><strong>Estágio Não Obrigatório (Extracurricular):</strong> Plano de Estágio Não Obrigatório e Carta de Aceite Não Obrigatório.</li>
+</ul>
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 3 - Colete as assinaturas</h3>
+
+<p>
+Imprima os documentos e colete as assinaturas necessárias no <strong>Plano de Estágio</strong> e na <strong>Carta de Aceite</strong> do orientador.
+</p>
+
+<p>
+Solicite também à Coordenação do seu curso a <strong>declaração contendo a carga horária semanal</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 4 - Digitalize os documentos</h3>
+
+<p>
+Reúna os seguintes documentos:
+</p>
+
+<ul>
+<li>Plano de Estágio;</li>
+<li>Carta de Aceite do Orientador;</li>
+<li>Declaração da Coordenação do Curso.</li>
+</ul>
+
+<p>
+Digitalize os três documentos em formato <strong>PDF</strong>. Você pode utilizar o celular para realizar a digitalização.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 5 - Envie por e-mail</h3>
+
+<p>
+Após reunir os três arquivos em PDF, envie-os para o e-mail do setor de estágios:
+</p>
+
+<p>
+<a href="mailto:estagios.cvd@ifmt.edu.br">
+estagios.cvd@ifmt.edu.br
+</a>
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Etapas após o envio</h3>
+
+<p>
+Após a análise da documentação, aguarde a notificação do Setor de Estágios para realizar a assinatura do <strong>Termo de Compromisso</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Importante</h3>
+
+<p>
+<strong>Não inicie o estágio antes da documentação estar regularizada.</strong>
+</p>
+
+<p>
+Caso o estágio seja iniciado sem a documentação aprovada, ele <strong>não será reconhecido como estágio</strong> e o estudante <strong>não terá cobertura do seguro escolar</strong>.
+</p>
+
+</div>
+
+</div>
+<div class="passo">
+
+<h3>Material de Apoio</h3>
+
+<p>
+<a href="https://drive.google.com/file/d/18npAdMcP0V8-BGOkqVj8gxST4ppSlNJW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+Clique aqui para acessar o manual de solicitação de estágio
+</a>
+</p>
+
+</div>
+`
+},
 ];
 
 // =======================
