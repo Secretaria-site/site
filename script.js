@@ -1778,6 +1778,170 @@ Clique aqui para acessar o manual de solicitação de estágio
 </div>
 `
 },
+{
+    id:21,
+    titulo:"Como preencher o Formulário de Caracterização Social",
+    descricao:"Aprenda como preencher o Formulário de Caracterização Social no SUAP.",
+    palavras:["caracterização social","caracterização socioeconômica","formulário social","questionário","dados pessoais","suap","caracterização"],
+    conteudo:`
+
+<h2>Como preencher o Formulário de Caracterização Social</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>Passo 1 - Acesse o SUAP</h3>
+
+<p>
+Entre no <strong>SUAP</strong> utilizando seu login e senha.
+</p>
+
+<p>
+<a href="https://suap.ifmt.edu.br/" target="_blank" rel="noopener noreferrer">
+Clique aqui para acessar o SUAP
+</a>
+</p>
+
+<img src="img/social/s1.png" alt="Tela inicial do SUAP">
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 2 - Abra a Caracterização Social</h3>
+
+<p>
+Na tela inicial do SUAP, clique na sua <strong>foto de perfil</strong>, localizada no canto superior direito.
+</p>
+
+<img src="img/social/s2.png" alt="Clique na foto do perfil">
+
+<p>
+Em seguida, selecione a opção <strong>"Caracterização Socioeconômica"</strong>.
+</p>
+
+<img src="img/social/s3.png" alt="Caracterização Socioeconômica">
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 3 - Preencha os Dados Pessoais</h3>
+
+<p>
+Informe corretamente os dados solicitados:
+</p>
+
+<ul>
+<li>Etnia/Raça/Cor;</li>
+<li>Pessoa com deficiência ou necessidade educacional especial;</li>
+<li>Estado civil;</li>
+<li>Quantidade de filhos;</li>
+<li>Serviço de saúde que mais utiliza.</li>
+</ul>
+
+<img src="img/social/s4.png" alt="Dados pessoais">
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 4 - Informe sua Escolaridade</h3>
+
+<p>
+Preencha as informações referentes aos seus estudos:
+</p>
+
+<ul>
+<li>Ano de conclusão do Ensino Fundamental;</li>
+<li>Ano de conclusão do Ensino Médio (caso já tenha concluído);</li>
+<li>Tipo de escola cursada;</li>
+<li>Nome das escolas;</li>
+<li>Conhecimento em idiomas;</li>
+<li>Conhecimento em informática.</li>
+</ul>
+
+<img src="img/social/s5.png" alt="Escolaridade">
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 5 - Preencha a Situação Familiar e Socioeconômica</h3>
+
+<p>
+Informe corretamente os dados da sua família e da sua condição socioeconômica:
+</p>
+
+<ul>
+<li>Situação de trabalho;</li>
+<li>Meio de transporte utilizado;</li>
+<li>Contribuintes da renda familiar;</li>
+<li>Principal responsável financeiro;</li>
+<li>Situação de trabalho e escolaridade do responsável financeiro;</li>
+<li>Escolaridade do pai e da mãe;</li>
+<li>Renda bruta familiar;</li>
+<li>Com quem você mora;</li>
+<li>Número de pessoas na residência;</li>
+<li>Tipo de imóvel;</li>
+<li>Tipo de área residencial;</li>
+<li>Programas sociais dos quais a família participa.</li>
+</ul>
+
+<img src="img/social/s6.png" alt="Situação Familiar e Socioeconômica">
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 6 - Informe o acesso às Tecnologias da Informação</h3>
+
+<p>
+Preencha as informações relacionadas ao acesso à internet e aos equipamentos disponíveis em sua residência:
+</p>
+
+<ul>
+<li>Frequência de acesso à internet;</li>
+<li>Local de acesso à internet;</li>
+<li>Quantidade de computadores;</li>
+<li>Quantidade de notebooks;</li>
+<li>Quantidade de netbooks;</li>
+<li>Quantidade de smartphones.</li>
+</ul>
+
+<img src="img/social/s7.png" alt="Tecnologias da Informação">
+
+</div>
+
+<div class="passo">
+
+<h3>Passo 7 - Salve as informações</h3>
+
+<p>
+Após conferir todos os dados preenchidos, clique no botão <strong>"Salvar"</strong> para finalizar o formulário.
+</p>
+
+<p>
+Caso alguma informação seja alterada futuramente, mantenha seu cadastro sempre atualizado no SUAP.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>Importante</h3>
+
+<p>
+As informações fornecidas no <strong>Formulário de Caracterização Social</strong> são utilizadas pelo IFMT para conhecer o perfil socioeconômico dos estudantes e subsidiar ações institucionais, inclusive processos relacionados à assistência estudantil. Portanto, preencha todos os campos com informações verdadeiras e atualizadas.
+</p>
+
+</div>
+
+</div>
+
+`
+},
 ];
 
 // =======================
