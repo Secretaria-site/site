@@ -942,3 +942,171 @@ footer small{
     }
 
 }
+/* ==========================================================
+   MODO ESCURO - COMPLETO
+   Cole no FINAL do style.css
+========================================================== */
+
+body.dark{
+    background:var(--fundo);
+    color:var(--texto);
+}
+
+/* Header */
+body.dark header{
+    background:#1F2937;
+    border-color:#334155;
+}
+
+body.dark .logo-if{
+    background:#1F2937;
+    border-color:#334155;
+}
+
+body.dark .logo span{
+    color:var(--texto2);
+}
+
+/* Botões */
+body.dark .acoes button{
+    background:#374151;
+    color:#fff;
+}
+
+/* Hero */
+body.dark .hero{
+    background:#1F2937;
+    border-color:#334155;
+}
+
+body.dark .hero h2{
+    color:#34D399;
+}
+
+body.dark .hero p{
+    color:var(--texto2);
+}
+
+/* Pesquisa */
+body.dark .pesquisa input{
+    background:#111827;
+    color:var(--texto);
+    border:1px solid #334155;
+}
+
+body.dark .pesquisa input::placeholder{
+    color:#9CA3AF;
+}
+
+/* Cards */
+body.dark .card{
+    background:#1F2937;
+    border-color:#334155;
+}
+
+body.dark .card h3{
+    color:#34D399;
+}
+
+body.dark .card p{
+    color:var(--texto2);
+}
+
+body.dark .card .icone{
+    background:#374151;
+}
+
+/* Menu */
+body.dark #menu{
+    background:#111827;
+}
+
+body.dark .logo-menu{
+    background:#1F2937;
+}
+
+body.dark #listaMenu li:hover{
+    background:#374151;
+}
+
+/* Página do tutorial */
+body.dark #pagina{
+    background:#1F2937;
+    border-color:#334155;
+}
+
+body.dark #pagina h2{
+    color:#34D399;
+}
+
+body.dark #pagina h3{
+    color:#F8F8F8;
+}
+
+body.dark #pagina p,
+body.dark #pagina li{
+    color:var(--texto2);
+}
+
+/* Tutoriais */
+body.dark .passo{
+    background:#111827;
+    color:#F8F8F8;
+    border-left:6px solid #00A859;
+}
+
+body.dark .passo h3{
+    color:#34D399;
+}
+
+body.dark .passo p,
+body.dark .passo li{
+    color:#D1D5DB;
+}
+
+body.dark .passo img{
+    border:1px solid #374151;
+}
+
+/* Links */
+body.dark a{
+    color:#60A5FA;
+}
+
+body.dark a:hover{
+    color:#93C5FD;
+}
+
+/* Footer */
+body.dark footer{
+    background:#1F2937;
+    border-top:1px solid #334155;
+}
+
+body.dark footer p,
+body.dark footer small{
+    color:#D1D5DB;
+}
+
+/* Botão voltar */
+body.dark #voltar{
+    background:#00A859;
+}
+
+/* Scrollbar */
+body.dark::-webkit-scrollbar{
+    width:10px;
+}
+
+body.dark::-webkit-scrollbar-track{
+    background:#111827;
+}
+
+body.dark::-webkit-scrollbar-thumb{
+    background:#4B5563;
+    border-radius:10px;
+}
+
+body.dark::-webkit-scrollbar-thumb:hover{
+    background:#6B7280;
+}
