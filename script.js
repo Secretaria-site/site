@@ -1465,7 +1465,7 @@ PPC TI 2022
 </p>
 
 <p>
-<a class="botao-pdf" href="img/ppc TI 2026.pdf" target="_blank">
+<a class="botao-pdf" href="img/ppc  2026.pdf" target="_blank">
 PPC TI 2026
 </a>
 </p>
@@ -1942,6 +1942,79 @@ As informações fornecidas no <strong>Formulário de Caracterização Social</s
 
 `
 },
+{
+    id:22,
+    titulo:"Documentos Legais",
+    descricao:"Documentos legais e normativos do IFMT.",
+    palavras:[
+        "documentos legais",
+        "instrução normativa",
+        "lei",
+        "regimento",
+        "resolução",
+        "aproveitamento de disciplinas",
+        "matrícula"
+    ],
+    conteudo:`
+
+<h2>Documentos Legais</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+<h3>Instrução Normativa nº 01/2024</h3>
+<p>
+Instrução Normativa nº 01/2024 - RTR_GAB_RTR_IFMT.
+</p>
+
+<a href="img/documentos legais/Instrução Normativa nº 01_2024 - RTR_GAB_RTR_IFMT.pdf"
+target="_blank">
+ Abrir documento
+</a>
+</div>
+
+
+<div class="passo">
+<h3>Lei nº 12.089, de 2009</h3>
+<p>
+Proibição de 2 matrículas na graduação.
+</p>
+
+<a href="img/documentos legais/lei_no_12089_de_2009 - Proibição 2 matriculas na Graduação.pdf"
+target="_blank">
+ Abrir documento
+</a>
+</div>
+
+
+<div class="passo">
+<h3>Regimento 2022</h3>
+<p>
+Regimento institucional do IFMT.
+</p>
+
+<a href="img/documentos legais/regimento_2022_final_v02.pdf"
+target="_blank">
+ Abrir documento
+</a>
+</div>
+
+
+<div class="passo">
+<h3>Resolução nº 37/2025</h3>
+<p>
+Resolução do CONSEPE sobre aproveitamento de disciplinas.
+</p>
+
+<a href="img/documentos legais/Resolução 37.2025 - RTR - CONSEPE - Aproveitamento de disciplinas.pdf"
+target="_blank">
+ Abrir documento
+</a>
+</div>
+
+</div>
+`
+}
 ];
 
 // =======================
