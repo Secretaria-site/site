@@ -2008,7 +2008,7 @@ Resolução do CONSEPE sobre aproveitamento de disciplinas.
 
 <a href="img/documentos legais/Resolução 37.2025 - RTR - CONSEPE - Aproveitamento de disciplinas.pdf"
 target="_blank">
-📄 Abrir documento
+ Abrir documento
 </a>
 </div>
 
