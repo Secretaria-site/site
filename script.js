@@ -949,11 +949,16 @@ Antes de iniciar o trabalho, recomenda-se a leitura do regulamento e dos documen
 <p>
 Leia atentamente o Regulamento do Trabalho de Conclusão de Curso antes de iniciar a elaboração.
 <br><br>
-Neste tutorial está disponível um arquivo em PDF contendo o regulamento e as orientações necessárias para o desenvolvimento, defesa e entrega do TCC.
-<br><br>
 A leitura desse documento é fundamental para o cumprimento das exigências acadêmicas e institucionais.
-</p>
+<br><br>
 
+</p>
+<iframe
+    src="img/tcc.pdf"
+    width="100%"
+    height="400"
+    style="border:none;">
+</iframe>
 
 
 </div>
@@ -973,26 +978,28 @@ A banca examinadora será composta pelo(a) orientador(a) e por, no mínimo, dois
 
 
 <div class="passo">
-<h3>Passo Final - Entrega da versão final</h3>
+<h3>Passo Final - Entrega da versão final e autorização</h3>
 
 <p>
 Após a aprovação na banca examinadora, o estudante deverá realizar a entrega da versão final do TCC.
 <br><br>
 A entrega deverá ser realizada em formato impresso e digital, seguindo as normas da ABNT e as orientações institucionais vigentes.
 <br><br>
-<strong>Importante:</strong> a entrega somente poderá ser realizada após a aprovação na banca de defesa.
+O aluno também deverá preencher o formulário de autorização e enviá-lo junto com a versão final do TCC para o coordenador de curso.
+<br><br>
+<strong>Importante:</strong> a entrega da versão final e do formulário de autorização somente deverá ser realizada após a aprovação na banca de defesa. O formulário deve ser preenchido corretamente e encaminhado juntamente com a versão final do trabalho.
 </p>
-</div>
-
-<div class="tutorial">
 
 <iframe
-    src="img/tcc.pdf"
+    src="img/tcc/autorização.pdf"
     width="100%"
     height="400"
     style="border:none;">
 </iframe>
 
+</div>
+
+</div>
 </div>
 </div>
 
