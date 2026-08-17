@@ -1,5 +1,6 @@
 
 
+
 const assuntos = [
 
 {
@@ -1148,7 +1149,7 @@ Acesse o Ambiente Virtual de Aprendizagem (AVA) do IFMT pelo link abaixo:
 </p>
 
 <p>
-<a href="https://ava.ifmt.edu.br/login/index.php"
+<a href="https://online.ifmt.edu.br/"
    target="_blank"
    rel="noopener noreferrer">
    Clique aqui para acessar o AVA / Moodle
@@ -1158,14 +1159,10 @@ Acesse o Ambiente Virtual de Aprendizagem (AVA) do IFMT pelo link abaixo:
 </div>
 
 <div class="passo">
-<h3>Passo 2 – Faça o login</h3>
+<h3>Passo 2 – Faça o login com a sua conta SUAP</h3>
 
 <p>
-Preencha somente o campo <strong>Identificação do usuário</strong> com o seu <strong>número de matrícula</strong>.
-</p>
-
-<p>
-Mesmo que exista um campo para e-mail, <strong>não é necessário preenchê-lo</strong>.
+Faça login no SUAP utilizando sua matrícula e senha.
 </p>
 
 </div>
