@@ -558,7 +558,7 @@ Após a redefinição, a nova senha será válida tanto para o SUAP quanto para 
 <div class="passo">
     <h3>Requerimento</h3>
 
-    <p>Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@gmail.com</p>
+    <p>Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@ifmt.edu.br</p>
 
     <iframe
         src="img/reque.pdf"
