@@ -882,8 +882,8 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
 {
     id:9,
     titulo:"TCC / Monografia",
-    descricao:"Informações sobre o Trabalho de Conclusão de Curso.",
-    palavras:["tcc","monografia","defesa","abnt","orientador","trabalho"],
+    descricao:"Informações sobre o Trabalho de Conclusão de Curso, defesa e entrega da versão final.",
+    palavras:["tcc","monografia","defesa","abnt","orientador","banca","trabalho","versão final","publicação"],
     conteudo:`
 
 <h2>Trabalho de Conclusão de Curso (TCC)</h2>
@@ -891,110 +891,191 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
 <div class="tutorial">
 
 <div class="passo">
-<h3>Passo 1 - O que é o TCC?</h3>
+    <h3>Passo 1 - O que é o TCC?</h3>
 
-<p>
-O Trabalho de Conclusão de Curso (TCC) compõe a carga horária total do curso e é uma etapa obrigatória para sua conclusão.
-<br><br>
-Seu principal objetivo é possibilitar ao estudante revisar, aprofundar, sistematizar e integrar os conhecimentos adquiridos ao longo da formação acadêmica.
-<br><br>
-O TCC consiste na elaboração de um projeto técnico-científico fundamentado em estudos, pesquisas, observações e análises relacionadas à área de formação.
-</p>
-
-
+    <p>
+        O Trabalho de Conclusão de Curso (TCC) compõe a carga horária total do curso e é uma etapa obrigatória para sua conclusão.
+        <br><br>
+        Seu principal objetivo é possibilitar ao estudante revisar, aprofundar, sistematizar e integrar os conhecimentos adquiridos ao longo da formação acadêmica.
+        <br><br>
+        O TCC consiste na elaboração de um projeto técnico-científico fundamentado em estudos, pesquisas, observações e análises relacionadas à área de formação.
+    </p>
 
 </div>
 
 
 <div class="passo">
-<h3>Passo 2 - Como o TCC é elaborado?</h3>
+    <h3>Passo 2 - Como o TCC é elaborado?</h3>
 
-<p>
-O TCC será desenvolvido sob orientação de um(a) docente efetivo(a) da instituição.
-<br><br>
-Em conjunto com o(a) orientador(a), serão definidos o cronograma de atividades e as datas das orientações.
-<br><br>
+    <p>
+        O TCC será desenvolvido sob orientação de um(a) docente efetivo(a) da instituição.
+        <br><br>
+        Em conjunto com o(a) orientador(a), serão definidos o cronograma de atividades e as datas das orientações.
+        <br><br>
+        O trabalho poderá ser desenvolvido nas modalidades:
+    </p>
 
-O trabalho poderá ser desenvolvido nas modalidades:
-<ul>
-<li>Monografia;</li>
-<li>Produção e Processos;</li>
-<li>Produção de Áudio e Vídeo.</li>
-</ul>
+    <ul>
+        <li>Monografia;</li>
+        <li>Produção e Processos;</li>
+        <li>Produção de Áudio e Vídeo.</li>
+    </ul>
 
-Cada modalidade possui regulamento específico.
-</p>
-
-
-
-</div>
-
-
-<div class="passo">
-<h3>Passo 3 - Normas para elaboração</h3>
-
-<p>
-O Trabalho de Conclusão de Curso deverá seguir as normas vigentes da <strong>ABNT</strong> e as orientações estabelecidas pelo Guia de Elaboração do TCC do IFMT.
-<br><br>
-Antes de iniciar o trabalho, recomenda-se a leitura do regulamento e dos documentos orientadores disponibilizados pela instituição.
-</p>
-
-
+    <p>
+        Cada modalidade possui regulamento específico.
+    </p>
 
 </div>
 
 
 <div class="passo">
-<h3>Passo 4 - Guia de Elaboração do TCC</h3>
+    <h3>Passo 3 - Normas para elaboração</h3>
 
-<p>
-Leia atentamente o Regulamento do Trabalho de Conclusão de Curso antes de iniciar a elaboração.
-<br><br>
-Neste tutorial está disponível um arquivo em PDF contendo o regulamento e as orientações necessárias para o desenvolvimento, defesa e entrega do TCC.
-<br><br>
-A leitura desse documento é fundamental para o cumprimento das exigências acadêmicas e institucionais.
-</p>
-
-
+    <p>
+        O Trabalho de Conclusão de Curso deverá seguir as normas vigentes da <strong>ABNT</strong> e as orientações estabelecidas pelo Guia de Elaboração do TCC do IFMT.
+        <br><br>
+        Antes de iniciar o trabalho, recomenda-se a leitura do regulamento e dos documentos orientadores disponibilizados pela instituição.
+    </p>
 
 </div>
 
 
 <div class="passo">
-<h3>Passo 5 - Defesa do TCC</h3>
+    <h3>Passo 4 - Agendamento da defesa</h3>
 
-<p>
-Após concluir o trabalho, o estudante deverá, juntamente com seu orientador, providenciar os procedimentos necessários para a defesa.
-<br><br>
-A banca examinadora será composta pelo(a) orientador(a) e por, no mínimo, dois membros convidados, pertencentes ao IFMT ou a outras instituições, desde que possuam conhecimento na área do trabalho apresentado.
-</p>
+    <p>
+        O(a) orientador(a) deve definir, juntamente com o estudante:
+    </p>
 
+    <ul>
+        <li>Data da defesa;</li>
+        <li>Horário da defesa;</li>
+        <li>Formato da defesa.</li>
+    </ul>
+
+    <p>
+        O(a) orientador(a) também deverá convidar os <strong>dois membros da banca examinadora</strong> e preencher digitalmente o <strong>Formulário de Solicitação de Defesa</strong>.
+    </p>
 
 </div>
 
 
 <div class="passo">
-<h3>Passo Final - Entrega da versão final</h3>
+    <h3>Passo 5 - Prazo para solicitar a defesa</h3>
 
-<p>
-Após a aprovação na banca examinadora, o estudante deverá realizar a entrega da versão final do TCC.
-<br><br>
-A entrega deverá ser realizada em formato impresso e digital, seguindo as normas da ABNT e as orientações institucionais vigentes.
-<br><br>
-<strong>Importante:</strong> a entrega somente poderá ser realizada após a aprovação na banca de defesa.
-</p>
-</div>
+    <p>
+        O formulário de solicitação de defesa deve ser enviado <strong>exclusivamente para o e-mail estagios.cvd@ifmt.edu.br</strong>.
+        <br><br>
+        A solicitação deve ser encaminhada com <strong>antecedência mínima de 3 dias antes da data da banca</strong>.
+    </p>
 
-<div class="tutorial">
-
-<iframe
-    src="img/tcc.pdf"
-    width="100%"
-    height="400"
-    style="border:none;">
-</iframe>
+    <div class="destaque">
+        <strong>📧 E-mail:</strong> estagios.cvd@ifmt.edu.br
+        <br>
+        <strong>⏰ Prazo:</strong> mínimo de 3 dias antes da defesa
+    </div>
 
 </div>
+
+
+<div class="passo">
+    <h3>Passo 6 - Realização da defesa</h3>
+
+    <p>
+        Após o agendamento e o envio da solicitação dentro do prazo, o estudante realizará a apresentação do TCC perante a banca examinadora.
+        <br><br>
+        A banca é composta pelo(a) orientador(a) e pelos <strong>dois membros convidados</strong>.
+    </p>
+
+</div>
+
+
+<div class="passo">
+    <h3>Passo 7 - Procedimentos após a defesa</h3>
+
+    <p>
+        Logo após o término da apresentação, o(a) orientador(a) deverá enviar para o e-mail do setor de estágios:
+    </p>
+
+    <ul>
+        <li><strong>Data da apresentação;</strong></li>
+        <li><strong>Nota atribuída;</strong></li>
+        <li><strong>Observações/apreciações da banca;</strong></li>
+        <li><strong>Arquivo do TCC/Relatório utilizado na defesa.</strong></li>
+    </ul>
+
+    <p>
+        O setor registrará os resultados e gerará o documento consolidado para colher as assinaturas da banca na ata.
+    </p>
+
+</div>
+
+
+<div class="passo">
+    <h3>Passo 8 - Correções e versão final</h3>
+
+    <p>
+        Após a defesa, o estudante deverá realizar os ajustes e correções sugeridos pela banca examinadora.
+        <br><br>
+        Depois de concluir as correções, deverá entregar a <strong>versão final e definitiva do TCC</strong> ao(à) orientador(a).
+    </p>
+
+</div>
+
+
+<div class="passo">
+    <h3>Passo 9 - Registro da versão final no SUAP</h3>
+
+    <p>
+        Assim que o estudante realizar os ajustes sugeridos e entregar a versão final e definitiva do TCC, o(a) orientador(a) deverá encaminhar o arquivo para:
+    </p>
+
+    <div class="destaque">
+        <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+    </div>
+
+    <p>
+        O setor realizará o <strong>registro definitivo da versão final no sistema SUAP</strong>.
+    </p>
+
+</div>
+
+
+<div class="passo">
+    <h3>Passo 10 - Autorização de publicação</h3>
+
+    <p>
+        Para a publicação do TCC no sistema da biblioteca, está disponível o formulário de <strong>Autorização de publicação no sistema da biblioteca</strong>.
+        <br><br>
+        Preencha o documento conforme as orientações da instituição.
+    </p>
+
+    <iframe
+        src="img/Autorização de publicação no sistema da biblioteca.pdf"
+        width="100%"
+        height="400"
+        style="border:none;">
+    </iframe>
+
+</div>
+
+
+<div class="passo">
+    <h3>Material de apoio</h3>
+
+    <p>
+        Consulte o documento abaixo para obter as orientações relacionadas ao TCC.
+    </p>
+
+    <iframe
+        src="img/tcc.pdf"
+        width="100%"
+        height="400"
+        style="border:none;">
+    </iframe>
+
+</div>
+
 </div>
 
 `
