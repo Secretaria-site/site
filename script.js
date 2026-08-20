@@ -1543,7 +1543,7 @@ PPC TI 2022
 </p>
 
 <p>
-<a class="botao-pdf" href="img/ppc  2026.pdf" target="_blank">
+<a class="botao-pdf" href="img/ppc TI 2026.pdf" target="_blank">
 PPC TI 2026
 </a>
 </p>
@@ -2268,28 +2268,34 @@ overlay.onclick=fecharMenu;
 // MODO ESCURO
 // ================================
 
-const botaoTema=document.getElementById("tema");
+const botaoTema = document.getElementById("tema");
 
-botaoTema.onclick=()=>{
+botaoTema.onclick = () => {
 
     document.body.classList.toggle("dark");
 
-    const icone=botaoTema.querySelector("span");
+    const icone = botaoTema.querySelector("span");
+    const logos = document.querySelectorAll(".logo-imagem");
 
-    if(document.body.classList.contains("dark")){
+    if (document.body.classList.contains("dark")) {
 
-        icone.innerHTML="light_mode";
+        icone.textContent = "light_mode";
+
+        logos.forEach(logo => {
+            logo.src = "img/logo-escuro.png";
+        });
+
+    } else {
+
+        icone.textContent = "dark_mode";
+
+        logos.forEach(logo => {
+            logo.src = "img/logo-claro.png";
+        });
 
     }
 
-    else{
-
-        icone.innerHTML="dark_mode";
-
-    }
-
-}
-
+};
 
 
 const topo=document.getElementById("topo");

@@ -8,29 +8,34 @@
     <title>Serviços e Informações | Secretaria IFMT</title>
 
     <link rel="stylesheet" href="style.css">
-    
 
-   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
 
-    
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
 
 </head>
 
 <body>
 
-  
+    <!-- =========================
+         MENU LATERAL
+    ========================== -->
 
     <aside id="menu">
 
         <div class="logo-menu">
 
             <div class="logo-if">
-    <img src="img/logo-ifmt.png" alt="Logo IFMT">
-</div>
+
+                <img
+                    class="logo-imagem"
+                    src="img/logo-claro.png"
+                    alt="Logo IFMT"
+                >
+
+            </div>
 
             <div>
 
@@ -45,26 +50,42 @@
 
     </aside>
 
+
+    <!-- Fundo escuro quando o menu abrir -->
+
     <div id="overlay"></div>
 
-   
+
+    <!-- =========================
+         CABEÇALHO
+    ========================== -->
 
     <header>
 
         <div class="logo">
 
             <div class="logo-if">
-    <img src="img/logo-ifmt.png" alt="Logo IFMT">
-</div>
+
+                <img
+                    class="logo-imagem"
+                    src="img/logo-claro.png"
+                    alt="Logo IFMT"
+                >
+
+            </div>
 
             <div>
 
                 <h1>Serviços e Informações</h1>
-                <span>Instituto Federal de Mato Grosso</span>
+
+                <span>
+                    Instituto Federal de Mato Grosso
+                </span>
 
             </div>
 
         </div>
+
 
         <div class="acoes">
 
@@ -75,6 +96,7 @@
                 </span>
 
             </button>
+
 
             <button id="abrirMenu">
 
@@ -88,37 +110,40 @@
 
     </header>
 
-    
+
+    <!-- =========================
+         HERO / PESQUISA
+    ========================== -->
 
     <section class="hero" id="hero">
 
-    <h2>Bem-vindo(a)!</h2>
+        <h2>Bem-vindo(a)!</h2>
 
-    <p>
-        Encontre rapidamente qualquer procedimento acadêmico da secretaria.
-    </p>
-
-    <div class="pesquisa">
-
-        <span class="material-icons-round">
-            search
-        </span>
-
-        <input
-            id="buscar"
-            type="text"
-            placeholder="Pesquisar assunto..."
-        >
-
-    </div>
-
-</section>
+        <p>
+            Encontre rapidamente qualquer procedimento acadêmico da secretaria.
+        </p>
 
 
+        <div class="pesquisa">
+
+            <span class="material-icons-round">
+                search
+            </span>
+
+            <input
+                id="buscar"
+                type="text"
+                placeholder="Pesquisar assunto..."
+            >
+
+        </div>
 
     </section>
 
-    
+
+    <!-- =========================
+         CONTEÚDO
+    ========================== -->
 
     <main>
 
@@ -126,21 +151,19 @@
 
         </section>
 
-       
 
         <section id="conteudo" class="oculto">
 
             <button id="voltar">
 
                 <span class="material-icons-round">
-
                     arrow_back
-
                 </span>
 
                 Voltar
 
             </button>
+
 
             <div id="pagina">
 
@@ -150,46 +173,61 @@
 
     </main>
 
-    
+
+    <!-- =========================
+         BOTÃO VOLTAR AO TOPO
+    ========================== -->
 
     <button id="topo">
 
         <span class="material-icons-round">
-
             keyboard_arrow_up
-
         </span>
 
     </button>
 
-    
 
-   <footer> 
+    <!-- =========================
+         RODAPÉ
+    ========================== -->
+
+    <footer>
+
         <div class="passo">
 
-        <h3>
-
-            Assuntos Gerais da Secretaria
-
-        </h3>
+            <h3>
+                Assuntos Gerais da Secretaria
+            </h3>
 
 
-        
-        <p>
-            Instituto Federal de Mato Grosso
-            Campus Campo Verde
-        </p>
+            <p>
+                Instituto Federal de Mato Grosso
+                Campus Campo Verde
+            </p>
 
-        <small>
-    Projeto informativo não oficial desenvolvido para facilitar o acesso dos estudantes às informações acadêmicas.
-    <br>
-    © 2026 • Desenvolvido por Yasmim Santos Adib Nafi (Estagiária).
-</small>
-</div>
+
+            <small>
+
+                Projeto informativo não oficial desenvolvido para facilitar o acesso dos estudantes às informações acadêmicas.
+
+                <br>
+
+                © 2026 • Desenvolvido por Yasmim Santos Adib Nafi (Estagiária).
+
+            </small>
+
+        </div>
+
     </footer>
-    
+
+
+    <!-- =========================
+         JAVASCRIPT
+    ========================== -->
+
     <script src="script.js"></script>
-<script src="menu-categorias.js"></script>
+
+    <script src="menu-categorias.js"></script>
 
 </body>
 
