@@ -2036,7 +2036,7 @@ Abrir documento
 Regimento institucional do IFMT.
 </p>
 
-<a href="img/documentos legais/regimento_2022_final_v02.pdf"
+<a href="img/documentos legais/regimento_2022_final__v02.pdf"
 target="_blank">
 Abrir documento
 </a>
@@ -2051,7 +2051,7 @@ Abrir documento
 Resolução do CONSEPE sobre aproveitamento de disciplinas.
 </p>
 
-<a href="img/documentos legais/Resolução 37.2025 - RTR - CONSEPE - Aproveitamento de disciplinas.pdf"
+<a href="img/documentos legais/Resolução 37.2025 - RTR-CONSEPE - Aproveitamento de disciplinas.pdf"
 target="_blank">
 Abrir documento
 </a>
