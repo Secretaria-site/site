@@ -1,9 +1,7 @@
 
 const assuntos = [
 
-/* =========================================================
-   1 - PRIMEIRO ACESSO AO SUAP
-========================================================= */
+
 
 {
     id:1,
@@ -187,9 +185,6 @@ O sistema será exibido de forma adaptada tanto para computadores quanto para ce
 `
 },
 
-/* =========================================================
-   3 - UTILIZANDO O SUAP
-========================================================= */
 
 {
     id:3,
@@ -358,13 +353,11 @@ A última página do Histórico Final e o verso do Diploma possuem informações
 `
 },
 
-/* =========================================================
-   4 - E-MAIL ACADÊMICO
-========================================================= */
+
 
 {
     id:4,
-    titulo:"Como criar e-mail acadêmico",
+    titulo:"Criando e-mail acadêmico",
     descricao:"Aprenda como criar e acessar seu e-mail institucional.",
     palavras:["email","acadêmico","gmail","institucional","suap","google"],
     conteudo:`
@@ -455,9 +448,7 @@ Após a redefinição, a nova senha será válida tanto para o SUAP quanto para 
 `
 },
 
-/* =========================================================
-   5 - HORÁRIOS DE AULA
-========================================================= */
+
 
 {
     id:5,
@@ -513,9 +504,7 @@ Técnico em Agricultura
 `
 },
 
-/* =========================================================
-   6 - PPC
-========================================================= */
+
 
 {
     id:6,
@@ -613,13 +602,11 @@ PPC Técnico em Agricultura
 `
 },
 
-/* =========================================================
-   7 - JUSTIFICATIVA DE FALTA
-========================================================= */
+
 
 {
     id:7,
-    titulo:"Como cadastrar justificativa de falta",
+    titulo:"Cadastrando justificativa de falta",
     descricao:"Aprenda a enviar seu atestado pelo SUAP.",
     palavras:["atestado","justificativa","falta","abono","suap","documento"],
     conteudo:`
@@ -694,9 +681,7 @@ Após conferir todas as informações, clique em <strong>"Salvar"</strong> para 
 `
 },
 
-/* =========================================================
-   8 - SEGUNDA CHAMADA
-========================================================= */
+
 
 {
     id:8,
@@ -772,13 +757,11 @@ Após revisar todas as informações, clique em <strong>Salvar</strong> para fin
 `
 },
 
-/* =========================================================
-   9 - EXERCÍCIO DOMICILIAR
-========================================================= */
+
 
 {
     id:9,
-    titulo:"Como solicitar exercício domiciliar",
+    titulo:"Solicitação de Regime de Exercício Domiciliar (RED)",
     descricao:"Solicitação de exercício domiciliar.",
     palavras:["domiciliar"],
     conteudo:`
@@ -908,9 +891,7 @@ Após esse procedimento, sua solicitação será analisada pela unidade respons�
 `
 },
 
-/* =========================================================
-   10 - TRANCAMENTO
-========================================================= */
+
 
 {
     id:10,
@@ -1010,9 +991,7 @@ style="border:none;">
 `
 },
 
-/* =========================================================
-   11 - TRANSFERÊNCIA
-========================================================= */
+
 
 {
     id:11,
@@ -1097,9 +1076,7 @@ style="border:none;">
 `
 },
 
-/* =========================================================
-   12 - ASSISTÊNCIA ESTUDANTIL
-========================================================= */
+
 
 {
     id:12,
@@ -1211,9 +1188,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
 `
 },
 
-/* =========================================================
-   13 - TCC / MONOGRAFIA
-========================================================= */
+
 
 {
     id:13,
@@ -1396,9 +1371,7 @@ style="border:none;">
 `
 },
 
-/* =========================================================
-   14 - AVA / MOODLE
-========================================================= */
+
 
 {
     id:14,
@@ -1630,9 +1603,7 @@ Calendário Acadêmico
 `
 },
 
-/* =========================================================
-   18 - REMATRÍCULA ONLINE
-========================================================= */
+
 
 {
     id:18,
@@ -1698,9 +1669,7 @@ Para <strong>cursos semestrais</strong>, a rematrícula deve ser realizada <stro
 `
 },
 
-/* =========================================================
-   19 - SOLICITAÇÃO DE ESTÁGIO
-========================================================= */
+
 
 {
     id:19,
@@ -1845,7 +1814,7 @@ Clique aqui para acessar o manual de solicitação de estágio
 
 {
     id:20,
-    titulo:"Como preencher o Formulário de Caracterização Social",
+    titulo:"Caracterização Socioeconômica",
     descricao:"Aprenda como preencher o Formulário de Caracterização Social no SUAP.",
     palavras:["caracterização social","caracterização socioeconômica","formulário social","questionário","dados pessoais","suap","caracterização"],
     conteudo:`
@@ -2008,9 +1977,7 @@ As informações fornecidas no <strong>Formulário de Caracterização Social</s
 `
 },
 
-/* =========================================================
-   21 - DOCUMENTOS LEGAIS
-========================================================= */
+
 
 {
     id:21,
