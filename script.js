@@ -549,7 +549,7 @@ PPC AGI 2012
 
 <p>
 <a class="botao-pdf" href="img/ppc AGI 2021.pdf" target="_blank">
-PPC AGI 2021
+PPC AGI 2020
 </a>
 </p>
 
@@ -879,7 +879,7 @@ Abra o e-mail recebido, clique em <strong>"Encaminhar"</strong> e envie para a S
 
 <div class="destaque">
 <strong>Campus Campo Verde</strong><br>
-📧 cvd.secretaria@ifmt.edu.br
+ secretaria.cvd@ifmt.com.br
 </div>
 
 <p>
@@ -1059,7 +1059,7 @@ A aprovação da transferência depende do cumprimento dos requisitos previstos 
 <h3>Requerimento de transferência do IFMT Campus Campo Verde para outra instituição de ensino</h3>
 
 <p>
-Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@gmail.com
+Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@ifmt.com.br
 </p>
 
 <iframe
