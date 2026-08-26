@@ -879,7 +879,7 @@ Abra o e-mail recebido, clique em <strong>"Encaminhar"</strong> e envie para a S
 
 <div class="destaque">
 <strong>Campus Campo Verde</strong><br>
- secretaria.cvd@ifmt.com.br
+📧 secretaria.cvd@ifmt.com.br
 </div>
 
 <p>
@@ -1059,7 +1059,7 @@ A aprovação da transferência depende do cumprimento dos requisitos previstos 
 <h3>Requerimento de transferência do IFMT Campus Campo Verde para outra instituição de ensino</h3>
 
 <p>
-Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@ifmt.com.br
+Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@gmail.com
 </p>
 
 <iframe
@@ -1192,61 +1192,49 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
 
 {
     id:13,
-    titulo:"TCC / Monografia",
-    descricao:"Informações sobre o Trabalho de Conclusão de Curso, defesa e entrega da versão final.",
-    palavras:["tcc","monografia","defesa","abnt","orientador","banca","trabalho","versão final","publicação"],
+    titulo:"Estágios e TCC",
+    descricao:"Informações sobre solicitação de defesa, estágio, TCC, documentação e procedimentos após a banca.",
+    palavras:[
+        "estágio",
+        "estagios",
+        "tcc",
+        "monografia",
+        "defesa",
+        "banca",
+        "orientador",
+        "formulário",
+        "solicitação de defesa",
+        "pasta de estágio",
+        "versão final",
+        "suap"
+    ],
     conteudo:`
 
-<h2>Trabalho de Conclusão de Curso (TCC)</h2>
+<h2>Estágios e TCC — Solicitação de Defesa</h2>
 
 <div class="tutorial">
 
 <div class="passo">
-<h3>Passo 1 - O que é o TCC?</h3>
+<h3>Passo 1 - Prazo para solicitar a defesa</h3>
 
 <p>
-O Trabalho de Conclusão de Curso (TCC) compõe a carga horária total do curso e é uma etapa obrigatória para sua conclusão.
+O <strong>Formulário de Solicitação de Defesa</strong> deve ser enviado exclusivamente para o e-mail:
+</p>
+
+<div class="destaque">
+<strong>📧 estagios.cvd@ifmt.edu.br</strong>
 <br><br>
-Seu principal objetivo é possibilitar ao estudante revisar, aprofundar, sistematizar e integrar os conhecimentos adquiridos ao longo da formação acadêmica.
-<br><br>
-O TCC consiste na elaboração de um projeto técnico-científico fundamentado em estudos, pesquisas, observações e análises relacionadas à área de formação.
+<strong>⏰ Prazo:</strong> mínimo de 3 dias antes da data da banca.
+</div>
+
+<p>
+A solicitação deve ser encaminhada dentro do prazo estabelecido para que o processo de defesa possa ser analisado e registrado pelo setor.
 </p>
 </div>
 
-<div class="passo">
-<h3>Passo 2 - Como o TCC é elaborado?</h3>
-
-<p>
-O TCC será desenvolvido sob orientação de um(a) docente efetivo(a) da instituição.
-<br><br>
-Em conjunto com o(a) orientador(a), serão definidos o cronograma de atividades e as datas das orientações.
-<br><br>
-O trabalho poderá ser desenvolvido nas modalidades:
-</p>
-
-<ul>
-<li>Monografia;</li>
-<li>Produção e Processos;</li>
-<li>Produção de Áudio e Vídeo.</li>
-</ul>
-
-<p>
-Cada modalidade possui regulamento específico.
-</p>
-</div>
 
 <div class="passo">
-<h3>Passo 3 - Normas para elaboração</h3>
-
-<p>
-O Trabalho de Conclusão de Curso deverá seguir as normas vigentes da <strong>ABNT</strong> e as orientações estabelecidas pelo Guia de Elaboração do TCC do IFMT.
-<br><br>
-Antes de iniciar o trabalho, recomenda-se a leitura do regulamento e dos documentos orientadores disponibilizados pela instituição.
-</p>
-</div>
-
-<div class="passo">
-<h3>Passo 4 - Agendamento da defesa</h3>
+<h3>Passo 2 - Agendamento e preenchimento do formulário</h3>
 
 <p>
 O(a) orientador(a) deve definir, juntamente com o estudante:
@@ -1259,67 +1247,82 @@ O(a) orientador(a) deve definir, juntamente com o estudante:
 </ul>
 
 <p>
-O(a) orientador(a) também deverá convidar os <strong>dois membros da banca examinadora</strong> e preencher digitalmente o <strong>Formulário de Solicitação de Defesa</strong>.
+Após definir essas informações, o(a) orientador(a) deverá convidar os <strong>dois membros da banca</strong> e preencher digitalmente o <strong>Formulário de Solicitação de Defesa</strong>.
 </p>
 </div>
 
+
 <div class="passo">
-<h3>Passo 5 - Prazo para solicitar a defesa</h3>
+<h3>Passo 3 - Envio da solicitação</h3>
 
 <p>
-O formulário de solicitação de defesa deve ser enviado <strong>exclusivamente para o e-mail estagios.cvd@ifmt.edu.br</strong>.
-<br><br>
-A solicitação deve ser encaminhada com <strong>antecedência mínima de 3 dias antes da data da banca</strong>.
+Depois de preencher o formulário, o(a) orientador(a) deverá encaminhá-lo para o e-mail do setor:
 </p>
 
 <div class="destaque">
-<strong>📧 E-mail:</strong> estagios.cvd@ifmt.edu.br
-<br>
-<strong>⏰ Prazo:</strong> mínimo de 3 dias antes da defesa
+<strong>📧 estagios.cvd@ifmt.edu.br</strong>
 </div>
-</div>
-
-<div class="passo">
-<h3>Passo 6 - Realização da defesa</h3>
 
 <p>
-Após o agendamento e o envio da solicitação dentro do prazo, o estudante realizará a apresentação do TCC perante a banca examinadora.
-<br><br>
-A banca é composta pelo(a) orientador(a) e pelos <strong>dois membros convidados</strong>.
+O envio deve ser realizado com <strong>antecedência mínima de 3 dias antes da data da banca</strong>.
 </p>
 </div>
 
+
 <div class="passo">
-<h3>Passo 7 - Procedimentos após a defesa</h3>
+<h3>Passo 4 - Se a defesa for de Estágio</h3>
 
 <p>
-Logo após o término da apresentação, o(a) orientador(a) deverá enviar para o e-mail do setor de estágios:
+Quando a defesa for referente ao <strong>Estágio</strong>, o(a) orientador(a) deverá instruir o estudante a enviar sua:
+</p>
+
+<div class="destaque">
+<strong>📂 Pasta de estágio completa</strong>
+</div>
+
+<p>
+A pasta deverá ser encaminhada para o e-mail do setor para fins de <strong>análise e pontuação</strong>.
+</p>
+
+<div class="destaque">
+<strong>📧 estagios.cvd@ifmt.edu.br</strong>
+</div>
+</div>
+
+
+<div class="passo">
+<h3>Passo 5 - Se a defesa for de TCC / Monografia</h3>
+
+<p>
+Após o término da apresentação do <strong>TCC ou Monografia</strong>, o(a) orientador(a) deverá enviar para o e-mail do setor as seguintes informações:
 </p>
 
 <ul>
 <li><strong>Data da apresentação;</strong></li>
 <li><strong>Nota atribuída;</strong></li>
-<li><strong>Observações/apreciações da banca;</strong></li>
+<li><strong>Observações e apreciações da banca;</strong></li>
 <li><strong>Arquivo do TCC/Relatório utilizado na defesa.</strong></li>
 </ul>
 
 <p>
-O setor registrará os resultados e gerará o documento consolidado para colher as assinaturas da banca na ata.
+O objetivo é permitir que o setor registre os resultados e gere o <strong>documento consolidado</strong> para a coleta das assinaturas da banca na ata.
 </p>
 </div>
 
+
 <div class="passo">
-<h3>Passo 8 - Correções e versão final</h3>
+<h3>Passo 6 - Correções e versão final do TCC</h3>
 
 <p>
-Após a defesa, o estudante deverá realizar os ajustes e correções sugeridos pela banca examinadora.
+Após a defesa, o estudante deverá realizar os <strong>ajustes sugeridos pela banca examinadora</strong>.
 <br><br>
-Depois de concluir as correções, deverá entregar a <strong>versão final e definitiva do TCC</strong> ao(à) orientador(a).
+Depois de concluir as correções, deverá entregar ao(à) orientador(a) a <strong>versão final e definitiva do TCC</strong>.
 </p>
 </div>
 
+
 <div class="passo">
-<h3>Passo 9 - Registro da versão final no SUAP</h3>
+<h3>Passo 7 - Registro da versão final no SUAP</h3>
 
 <p>
 Assim que o estudante realizar os ajustes sugeridos e entregar a versão final e definitiva do TCC, o(a) orientador(a) deverá encaminhar o arquivo para:
@@ -1334,29 +1337,25 @@ O setor realizará o <strong>registro definitivo da versão final no sistema SUA
 </p>
 </div>
 
+
 <div class="passo">
-<h3>Passo 10 - Autorização de publicação</h3>
+<h3>Passo 8 - Formulário de Solicitação de Defesa</h3>
 
 <p>
-Para a publicação do TCC no sistema da biblioteca, está disponível o formulário de <strong>Autorização de publicação no sistema da biblioteca</strong>.
+Para realizar a solicitação da defesa, utilize o <strong>Formulário de Solicitação de Defesa</strong>.
 <br><br>
-Preencha o documento conforme as orientações da instituição.
+O formulário deverá ser preenchido digitalmente pelo(a) orientador(a) e encaminhado para o e-mail do setor dentro do prazo estabelecido.
 </p>
 
-<iframe
-src="img/Autorização de publicação no sistema da biblioteca.pdf"
-width="100%"
-height="400"
-style="border:none;">
-</iframe>
+<div class="destaque">
+<strong>📧 Envio:</strong> estagios.cvd@ifmt.edu.br
+<br>
+<strong>⏰ Prazo:</strong> mínimo de 3 dias antes da banca
 </div>
 
-<div class="passo">
-<h3>Material de apoio</h3>
+</div>
 
-<p>
-Consulte o documento abaixo para obter as orientações relacionadas ao TCC.
-</p>
+</div>
 
 <iframe
 src="img/tcc.pdf"
@@ -1671,142 +1670,7 @@ Para <strong>cursos semestrais</strong>, a rematrícula deve ser realizada <stro
 
 
 
-{
-    id:19,
-    titulo:"Solicitação de Estágio",
-    descricao:"Aprenda como solicitar o estágio obrigatório ou não obrigatório.",
-    palavras:["estágio","estagio","plano de estágio","termo","carta de aceite","orientador","jotform","estágio obrigatório","estágio não obrigatório"],
-    conteudo:`
 
-<h2>Solicitação de Estágio</h2>
-
-<div class="tutorial">
-
-<div class="passo">
-
-<h3>Passo 1 - Acesse o formulário</h3>
-
-<p>
-A solicitação do estágio deve ser realizada por meio do formulário eletrônico.
-</p>
-
-<p>
-<a href="https://form.jotform.com/211865464887673"
-target="_blank"
-rel="noopener noreferrer">
-Clique aqui para acessar o formulário de solicitação de estágio
-</a>
-</p>
-
-</div>
-
-<div class="passo">
-
-<h3>Passo 2 - Baixe os documentos</h3>
-
-<p>
-Após preencher o formulário, serão gerados <strong>4 documentos em PDF</strong>. Baixe apenas os documentos correspondentes ao seu tipo de estágio:
-</p>
-
-<ul>
-<li><strong>Estágio Obrigatório:</strong> Plano de Estágio e Carta de Aceite de Orientação.</li>
-<li><strong>Estágio Não Obrigatório (Extracurricular):</strong> Plano de Estágio Não Obrigatório e Carta de Aceite Não Obrigatório.</li>
-</ul>
-
-</div>
-
-<div class="passo">
-
-<h3>Passo 3 - Colete as assinaturas</h3>
-
-<p>
-Imprima os documentos e colete as assinaturas necessárias no <strong>Plano de Estágio</strong> e na <strong>Carta de Aceite</strong> do orientador.
-</p>
-
-<p>
-Solicite também à Coordenação do seu curso a <strong>declaração contendo a carga horária semanal</strong>.
-</p>
-
-</div>
-
-<div class="passo">
-
-<h3>Passo 4 - Digitalize os documentos</h3>
-
-<p>
-Reúna os seguintes documentos:
-</p>
-
-<ul>
-<li>Plano de Estágio;</li>
-<li>Carta de Aceite do Orientador;</li>
-<li>Declaração da Coordenação do Curso.</li>
-</ul>
-
-<p>
-Digitalize os três documentos em formato <strong>PDF</strong>. Você pode utilizar o celular para realizar a digitalização.
-</p>
-
-</div>
-
-<div class="passo">
-
-<h3>Passo 5 - Envie por e-mail</h3>
-
-<p>
-Após reunir os três arquivos em PDF, envie-os para o e-mail do setor de estágios:
-</p>
-
-<p>
-<a href="mailto:estagios.cvd@ifmt.edu.br">
-estagios.cvd@ifmt.edu.br
-</a>
-</p>
-
-</div>
-
-<div class="passo">
-
-<h3>Etapas após o envio</h3>
-
-<p>
-Após a análise da documentação, aguarde a notificação do Setor de Estágios para realizar a assinatura do <strong>Termo de Compromisso</strong>.
-</p>
-
-</div>
-
-<div class="passo">
-
-<h3>Importante</h3>
-
-<p>
-<strong>Não inicie o estágio antes da documentação estar regularizada.</strong>
-</p>
-
-<p>
-Caso o estágio seja iniciado sem a documentação aprovada, ele <strong>não será reconhecido como estágio</strong> e o estudante <strong>não terá cobertura do seguro escolar</strong>.
-</p>
-
-</div>
-
-<div class="passo">
-
-<h3>Material de Apoio</h3>
-
-<p>
-<a href="https://drive.google.com/file/d/18npAdMcP0V8-BGOkqVj8gxST4ppSlNJW/view?usp=sharing"
-target="_blank"
-rel="noopener noreferrer">
-Clique aqui para acessar o manual de solicitação de estágio
-</a>
-</p>
-
-</div>
-
-</div>
-
-`
-},
 
 /* =========================================================
    20 - CARACTERIZAÇÃO SOCIAL
