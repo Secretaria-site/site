@@ -1671,11 +1671,6 @@ Para <strong>cursos semestrais</strong>, a rematrícula deve ser realizada <stro
 
 
 
-
-/* =========================================================
-   20 - CARACTERIZAÇÃO SOCIAL
-========================================================= */
-
 {
     id:20,
     titulo:"Caracterização Socioeconômica",
@@ -1842,7 +1837,6 @@ As informações fornecidas no <strong>Formulário de Caracterização Social</s
 },
 
 
-
 {
     id:21,
     titulo:"Documentos Legais",
@@ -1894,6 +1888,22 @@ Abrir documento
 
 <div class="passo">
 
+<h3>Regimento Interno – Campus Campo Verde</h3>
+
+<p>
+Regimento Interno do IFMT – Campus Campo Verde, aprovado pela
+Resolução nº 14/2026 – RTR-CONSUP/RTR/IFMT, de 6 de fevereiro de 2026.
+</p>
+
+<a href="img/Regimento IFMT CVD.pdf"
+target="_blank">
+Abrir documento
+</a>
+
+</div>
+
+<div class="passo">
+
 <h3>Regimento 2022</h3>
 
 <p>
@@ -1925,7 +1935,429 @@ Abrir documento
 </div>
 
 `
+},
+
+
+{
+    id:22,
+    titulo:"Solicitação de Segunda Via de Documentos",
+    descricao:"Passo a passo para solicitar segunda via de certificado, diploma, histórico e outros documentos escolares.",
+    palavras:[
+        "segunda via",
+        "certificado",
+        "diploma",
+        "histórico escolar",
+        "atestado de conclusão",
+        "ementa",
+        "matriz curricular",
+        "documentos escolares",
+        "requerimento",
+        "solicitação de documentos"
+    ],
+
+    conteudo:`
+
+<h2>Solicitação de Segunda Via de Documentos</h2>
+
+<div class="tutorial">
+
+    <div class="passo">
+
+        <h3>📄 1. Baixe o requerimento</h3>
+
+        <p>
+            Para solicitar a segunda via de documentos escolares,
+            primeiro faça o download do requerimento.
+        </p>
+
+        <a href="https://docs.google.com/document/d/1IWv0PLYCzejZnJTdrD7BG8FPQkfVx3xJXtdXZTKncc0/edit?tab=t.0
+        target="_blank">
+            📥 Rquerimento
+        </a>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3> 2. Preencha seus dados</h3>
+
+        <p>
+            Preencha o requerimento com seus dados pessoais e acadêmicos.
+        </p>
+
+        <ul>
+            <li>Nome completo do estudante;</li>
+            <li>Telefone;</li>
+            <li>E-mail;</li>
+            <li>Nome do curso;</li>
+            <li>Ano da matrícula;</li>
+            <li>Ano do desligamento.</li>
+        </ul>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3> 3. Informe o endereço para envio</h3>
+
+        <p>
+            Caso queira receber os documentos pelos Correios,
+            preencha os dados do endereço para envio.
+        </p>
+
+        <ul>
+            <li>CEP;</li>
+            <li>Logradouro;</li>
+            <li>Número;</li>
+            <li>Bairro;</li>
+            <li>Complemento;</li>
+            <li>Cidade;</li>
+            <li>Estado.</li>
+        </ul>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3> 4. Informe qual documento deseja solicitar</h3>
+
+        <p>
+            No campo "Requerimento de", marque o documento que deseja solicitar.
+        </p>
+
+        <ul>
+            <li>Atestado de Conclusão de Curso;</li>
+            <li>Certificado - 2ª via;</li>
+            <li>Diploma de nível médio;</li>
+            <li>Diploma de nível superior - 2ª via;</li>
+            <li>Ementa das disciplinas do histórico escolar;</li>
+            <li>Histórico Escolar Final - 2ª via;</li>
+            <li>Histórico Escolar Parcial;</li>
+            <li>Matriz Curricular;</li>
+            <li>Outros.</li>
+        </ul>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3> 5. Anexe os documentos necessários</h3>
+
+        <p>
+            O requerimento informa que devem ser anexados os seguintes documentos:
+        </p>
+
+        <ul>
+            <li>
+                <strong>RG do estudante - frente e verso.</strong>
+                <br>
+                É necessário o RG porque é preciso verificar a data de expedição.
+            </li>
+
+            <li>
+                <strong>CPF do estudante.</strong>
+            </li>
+
+            <li>
+                <strong>Boletim de ocorrência</strong>
+                declarando o furto ou extravio do documento solicitado.
+                O boletim pode ser feito pela delegacia virtual.
+            </li>
+        </ul>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3> 6. Assine o requerimento</h3>
+
+        <p>
+            Após preencher o requerimento, assine o documento.
+            A assinatura pode ser:
+        </p>
+
+        <ul>
+            <li>Eletrônica;</li>
+            <li>Autenticada em cartório;</li>
+            <li>Realizada presencialmente no Registro Escolar.</li>
+        </ul>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3>📧 7. Envie para a Secretaria</h3>
+
+        <p>
+            Depois de preencher e assinar o requerimento,
+            envie o requerimento junto com todos os documentos solicitados
+            para a Secretaria Acadêmica.
+        </p>
+
+        <p>
+            <strong>📧 secretaria.cvd@ifmt.edu.br</strong>
+        </p>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3> Atenção</h3>
+
+        <p>
+            Confira se o requerimento está preenchido corretamente
+            e se todos os documentos necessários estão anexados
+            antes de enviar sua solicitação.
+        </p>
+
+    </div>
+
+
+    <div class="passo">
+
+        <h3> Comprovante de CPF</h3>
+
+        <p>
+            O requerimento disponibiliza um link para impressão
+            do comprovante de inscrição no CPF.
+        </p>
+
+        <a href="https://servicos.receita.fazenda.gov.br/Servicos/CPF/ImpressaoComprovante/ConsultaImpressao.asp"
+        target="_blank">
+            Acessar comprovante de CPF
+        </a>
+
+    </div>
+
+</div>
+
+`
+},
+
+{
+    id:23,
+    titulo:"Aproveitamento da Jornada de Trabalho como Estágio",
+    descricao:"Orientações para aproveitamento da jornada de trabalho como Estágio Curricular Obrigatório - Agronomia Noturno.",
+    palavras:[
+        "aproveitamento jornada de trabalho",
+        "estágio",
+        "estágio obrigatório",
+        "validação de estágio",
+        "jornada de trabalho",
+        "agronomia noturno",
+        "validação",
+        "atividades profissionais"
+    ],
+    conteudo:`
+
+<h2>Aproveitamento da Jornada de Trabalho como Estágio</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>⚠️ Atenção</h3>
+
+<p>
+Este procedimento é destinado <strong>somente aos alunos de Agronomia Noturno</strong>
+com carga superior a <strong>90% de conclusão do curso</strong>.
+</p>
+
+<p>
+A jornada de trabalho poderá ser aproveitada para validação do
+Estágio Curricular Obrigatório, desde que sejam apresentados os
+documentos necessários e comprovado o exercício das atividades profissionais.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>1. Preencher o formulário</h3>
+
+<p>
+Preencha o <strong>Formulário para Validação do Estágio Curricular
+Obrigatório por Exercício de Atividades Profissionais</strong> com
+todas as informações solicitadas.
+</p>
+
+<a href="https://docs.google.com/document/d/1gt2Wrp_dgRGh0dJretE7gReVd1pCI71-/edit"
+target="_blank">
+Abrir formulário
+</a>
+
+
+</div>
+
+<div class="passo">
+
+<h3>2. Reunir os documentos</h3>
+
+<p>
+Além do formulário preenchido, reúna os documentos necessários de
+acordo com sua condição profissional.
+</p>
+
+<h4>👷 I – Empregado</h4>
+
+<p>
+a) Carteira de Trabalho e Previdência Social (CTPS).
+</p>
+
+<p>
+b) Declaração da organização onde atua ou atuou, em papel timbrado,
+dirigida ao IFMT, devidamente assinada e carimbada pelo representante
+legal da organização, comprovando que o discente atua ou atuou na área
+de formação por período igual ou superior ao Estágio Curricular
+Obrigatório previsto no PPC.
+</p>
+
+<h4>🏢 II – Empresário</h4>
+
+<p>
+a) Cartão do CNPJ da instituição.
+</p>
+
+<p>
+b) Contrato social ou comprovante oficial que ateste que o estudante
+participa ou participou do quadro societário da organização por período
+igual ou superior ao Estágio Curricular Obrigatório.
+</p>
+
+<p>
+c) Nota Fiscal de Prestação de Serviço de Pessoa Jurídica.
+</p>
+
+<h4>👤 III – Autônomo</h4>
+
+<p>
+a) Comprovante de registro na prefeitura.
+</p>
+
+<p>
+b) Comprovante de recolhimento do Imposto sobre Serviços (ISS).
+</p>
+
+<p>
+c) Carnê de contribuição ao INSS correspondente a período igual ou
+superior ao Estágio Curricular Obrigatório previsto no PPC.
+</p>
+
+<p>
+d) Nota Fiscal de Prestação de Serviço de Pessoa Jurídica.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>3. Colocar os arquivos em uma pasta</h3>
+
+<p>
+Coloque <strong>todos os documentos em uma única pasta compactada</strong>,
+no formato <strong>ZIP ou RAR</strong>.
+</p>
+
+<p>
+O nome da pasta deverá ser o <strong>nome completo do aluno</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>4. Enviar por e-mail</h3>
+
+<p>
+Envie a pasta compactada para:
+</p>
+
+<p>
+<strong>gradagn.cvd@ifmt.edu.br</strong>
+</p>
+
+<p>
+No campo <strong>assunto do e-mail</strong>, utilize:
+</p>
+
+<p>
+<strong>Validação de Estágio - Seu Nome Completo</strong>
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>5. Caracterização da jornada de trabalho</h3>
+
+<p>
+No formulário, informe os dados referentes à sua jornada de trabalho,
+incluindo:
+</p>
+
+<ul>
+<li>Início e término do contrato;</li>
+<li>Carga horária diária;</li>
+<li>Horário regular da jornada;</li>
+<li>Carga horária semanal;</li>
+<li>Total de horas;</li>
+<li>Remuneração;</li>
+<li>Nome e cargo do supervisor;</li>
+<li>Formação acadêmica do supervisor;</li>
+<li>Instituição onde o supervisor concluiu a graduação;</li>
+<li>Contato e e-mail do supervisor.</li>
+</ul>
+
+</div>
+
+<div class="passo">
+
+<h3>6. Descrever as atividades profissionais</h3>
+
+<p>
+Informe a <strong>área de atuação</strong> e descreva as
+<strong>atividades desenvolvidas</strong> no exercício profissional.
+</p>
+
+<p>
+O formulário solicita que as atividades sejam descritas em forma de
+relatório e que sejam utilizadas <strong>imagens que comprovem as
+atividades realizadas</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>⚠️ Atenção ao envio</h3>
+
+<p>
+A documentação deve ser enviada dentro do prazo estabelecido pela
+Coordenação. Documentações recebidas após a data determinada poderão
+não ser consideradas para a validação do estágio.
+</p>
+
+<p>
+Em caso de dúvidas ou dificuldades no processo, procure a Coordenação
+de Curso de Agronomia.
+</p>
+
+</div>
+
+</div>
+
+`
 }
+
+
+
 
 ];
 
