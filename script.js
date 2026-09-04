@@ -2354,6 +2354,277 @@ de Curso de Agronomia.
 </div>
 
 `
+},
+
+{
+    id:24,
+    titulo:"Solicitação do Certificado ou Declaração de Proficiência do ENCCEJA",
+    descricao:"Tutorial para solicitar o Certificado de Conclusão do Ensino Médio ou a Declaração de Proficiência do ENCCEJA pelo Portal Gov.br.",
+    palavras:[
+        "ENCCEJA",
+        "certificado ENCCEJA",
+        "certificação ENCCEJA",
+        "declaração de proficiência",
+        "certificado ensino médio",
+        "Gov.br",
+        "solicitação certificado",
+        "conclusão ensino médio"
+    ],
+    conteudo:`
+
+<h2>Solicitação do Certificado ou Declaração de Proficiência do ENCCEJA</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>⚠️ Atenção</h3>
+
+<p>
+Este procedimento é destinado aos participantes que realizaram o
+<strong>ENCCEJA</strong> e obtiveram os resultados necessários para
+solicitar o <strong>Certificado de Conclusão do Ensino Médio</strong>
+ou a <strong>Declaração de Proficiência</strong>.
+</p>
+
+<p>
+A solicitação é realizada de forma <strong>online</strong>, por meio do
+Portal Gov.br, e o processo será encaminhado ao setor responsável
+pela emissão no IFMT.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>1. Acesse o formulário</h3>
+
+<p>
+Acesse o <strong>Formulário e Declaração de Não Conclusão do Ensino Médio</strong>
+pelo link abaixo:
+</p>
+
+<a href="https://docs.google.com/document/d/1yjXaAeTiSPib9F8M0xEX4USGPkGdyJZs/edit?usp=sharing"
+target="_blank">
+Abrir formulário
+</a>
+
+<p>
+Após abrir o documento, faça o download para preenchê-lo.
+</p>
+
+<p>
+Para baixar o documento:
+</p>
+
+<ol>
+<li>Clique em <strong>Arquivo</strong>;</li>
+<li>Selecione <strong>Fazer download</strong>;</li>
+<li>Escolha <strong>Microsoft Word (.docx)</strong> ou
+<strong>Documento PDF (.pdf)</strong>.</li>
+</ol>
+
+</div>
+
+<div class="passo">
+
+<h3>2. Preencher o formulário</h3>
+
+<p>
+Preencha o formulário com todas as informações solicitadas.
+</p>
+
+<p>
+Entre os dados solicitados estão:
+</p>
+
+<ul>
+<li>Nome completo;</li>
+<li>Nome do pai e da mãe;</li>
+<li>Data de nascimento;</li>
+<li>CPF;</li>
+<li>Naturalidade e UF;</li>
+<li>RG, órgão expedidor e data de expedição;</li>
+<li>Endereço completo;</li>
+<li>Telefone;</li>
+<li>E-mail.</li>
+</ul>
+
+<p>
+Na parte de <strong>Solicitação</strong>, indique se deseja solicitar a
+<strong>Certificação de Conclusão do Ensino Médio</strong> ou a
+<strong>Declaração de Proficiência</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>3. Assinar a declaração</h3>
+
+<p>
+Após preencher o formulário, leia atentamente a
+<strong>Declaração de Não Conclusão do Ensino Médio</strong>.
+</p>
+
+<p>
+Informe a cidade e a data e, em seguida, realize a
+<strong>assinatura do requerente</strong>.
+</p>
+
+<p>
+O documento declara que o candidato não possui certificado de conclusão
+do Ensino Médio e que assume a responsabilidade pelas informações
+fornecidas.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>4. Salvar o formulário em PDF</h3>
+
+<p>
+Após preencher e assinar o documento, salve o arquivo em
+<strong>formato PDF</strong>.
+</p>
+
+<p>
+O formulário deverá ser anexado posteriormente à solicitação realizada
+pelo Portal Gov.br.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>5. Acesse a solicitação pelo Gov.br</h3>
+
+<p>
+Acesse o serviço oficial do IFMT para solicitar o
+<strong>Certificado ENCCEJA</strong>:
+</p>
+
+<a href="https://www.gov.br/pt-br/servicos/solicitar-certificado-encceja-ifmt"
+target="_blank">
+Solicitar Certificado ENCCEJA - IFMT
+</a>
+
+<p>
+Na página, localize a opção para iniciar a solicitação do certificado
+ou da declaração de proficiência.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>6. Faça a solicitação</h3>
+
+<p>
+Preencha as informações solicitadas no sistema e selecione o
+<strong>campus do IFMT</strong> responsável pelo atendimento.
+</p>
+
+<p>
+Ao concluir essa etapa, será aberto um processo interno no IFMT e
+encaminhado ao setor responsável pela emissão do documento.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>7. Anexe os documentos necessários</h3>
+
+<p>
+Tenha em mãos os seguintes documentos:
+</p>
+
+<ul>
+<li>Certidão de Nascimento ou Casamento;</li>
+<li>Carteira de Identidade (RG) ou outro documento oficial com foto;</li>
+<li>Boletim Individual de Resultados do ENCCEJA;</li>
+<li>Declaração de que o candidato <strong>NÃO concluiu o Ensino Médio</strong>,
+preenchida e salva em PDF.</li>
+</ul>
+
+<p>
+Anexe os documentos solicitados no sistema, verificando se os arquivos
+estão legíveis antes de finalizar a solicitação.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>8. Finalize a solicitação</h3>
+
+<p>
+Após preencher todas as informações e anexar os documentos,
+<strong>revise os dados</strong> e finalize a solicitação.
+</p>
+
+<p>
+Certifique-se de que todos os documentos obrigatórios foram anexados
+corretamente antes de concluir o procedimento.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>9. Aguarde o contato do IFMT</h3>
+
+<p>
+Após a análise da solicitação, o IFMT entrará em contato por
+<strong>e-mail ou telefone</strong> para informar sobre a retirada
+do documento no campus escolhido.
+</p>
+
+<p>
+A retirada do certificado ou da declaração será realizada
+<strong>presencialmente</strong> no campus indicado na solicitação.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>🎥 10. Vídeos tutoriais</h3>
+
+<p>
+Para facilitar o preenchimento e a realização da solicitação,
+consulte os vídeos tutoriais disponibilizados pela instituição:
+</p>
+
+<a href="https://www.youtube.com/playlist?list=PLtA0deP90nv5lRlisTKuVSQskTJuUbArw"
+target="_blank">
+Acessar vídeos tutoriais
+</a>
+
+</div>
+
+<div class="passo">
+
+<h3>⚠️ Informações importantes</h3>
+
+<p>
+Antes de enviar a solicitação, confira se todos os dados estão
+corretos e se os documentos estão legíveis.
+</p>
+
+<p>
+A declaração deverá ser preenchida e enviada em
+<strong>formato PDF</strong> juntamente com os demais documentos
+solicitados.
+</p>
+
+</div>
+
+</div>
+
+`
 }
 
 
