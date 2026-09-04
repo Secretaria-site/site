@@ -1933,6 +1933,21 @@ Abrir documento
 </div>
 
 </div>
+<div class="passo">
+
+<h3>Documento para Solicitação de Certificado do ENCCEJA</h3>
+
+<p>
+Formulário e declaração necessários para a solicitação do
+<strong>Certificado de Conclusão do Ensino Médio ou Declaração de Proficiência do ENCCEJA</strong>.
+</p>
+
+<a href="https://docs.google.com/document/d/18fjMBVkLdstcr-l-cp6-0mfeGplf9EPMY9LfSGW_2oQ/edit?tab=t.0"
+target="_blank">
+Abrir documento
+</a>
+
+</div>
 
 `
 },
