@@ -2640,7 +2640,125 @@ solicitados.
 </div>
 
 `
+},
+
+{
+    id:25,
+    titulo:"Acesso à Biblioteca Virtual Pearson pelo Gnuteca",
+    descricao:"Tutorial para acessar a Biblioteca Virtual Pearson por meio do sistema Gnuteca.",
+    palavras:[
+        "Biblioteca Virtual Pearson",
+        "Pearson",
+        "Gnuteca",
+        "biblioteca virtual",
+        "acesso Pearson",
+        "livros digitais",
+        "biblioteca"
+    ],
+    conteudo:`
+
+<h2>Acesso à Biblioteca Virtual Pearson pelo Gnuteca</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+
+<h3>⚠️ Atenção</h3>
+
+<p>
+Para acessar a <strong>Biblioteca Virtual Pearson</strong> pelo Gnuteca,
+o <strong>e-mail cadastrado no Gnuteca deve ser o mesmo utilizado no cadastro
+da Pearson</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>1. Acesse a pesquisa do Gnuteca</h3>
+
+<p>
+Entre no sistema <strong>Gnuteca</strong> e acesse a aba de pesquisa da biblioteca.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>2. Pesquise o livro</h3>
+
+<p>
+Pesquise pelo <strong>título, autor ou assunto</strong> do livro desejado.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>3. Acesse a Biblioteca Virtual Pearson</h3>
+
+<p>
+Localize o livro desejado e clique no link azul
+<strong>“Ler na Biblioteca Virtual Pearson”</strong>.
+</p>
+
+<p>
+Na tela de acesso, utilize os dados cadastrados no Gnuteca:
+<strong>CPF e senha</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>4. Realize o cadastro</h3>
+
+<p>
+Caso seja o primeiro acesso, confira o <strong>e-mail cadastrado no Gnuteca</strong>
+e aceite os itens necessários.
+</p>
+
+<p>
+Em seguida, preencha o cadastro solicitado pela Pearson.
+A senha definida nessa etapa poderá ser utilizada para acessar diretamente
+a página da Pearson posteriormente.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>5. Acesse o livro</h3>
+
+<p>
+Após finalizar o cadastro, você será direcionado ao livro pesquisado.
+Caso já possua cadastro na Pearson, o acesso poderá ser direcionado
+diretamente para o livro.
+</p>
+
+</div>
+
+<div class="passo">
+
+<h3>📄 Tutorial completo</h3>
+
+<p>
+Para consultar o passo a passo completo, acesse o tutorial em PDF abaixo:
+</p>
+
+
+<a href="img/Tutorial_Bibliotecarios.pdf" target="_blank">
+
+📥 Abrir Tutorial de Acesso à Biblioteca Virtual Pearson
+</a>
+
+</div>
+
+</div>
+
+`
 }
+
 
 
 
