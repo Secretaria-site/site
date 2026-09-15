@@ -2757,6 +2757,99 @@ Para consultar o passo a passo completo, acesse o tutorial em PDF abaixo:
 </div>
 
 `
+},
+
+{
+    id:26,
+    titulo:"Envio de Atividades Complementares pelo SUAP",
+    descricao:"Tutorial para enviar atividades complementares pelo sistema SUAP.",
+    palavras:[
+        "Atividades Complementares",
+        "SUAP",
+        "enviar atividade complementar",
+        "horas complementares",
+        "atividades",
+        "deferimento",
+        "coordenação"
+    ],
+    conteudo:`
+<h2>Envio de Atividades Complementares pelo SUAP</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+<h3>1. Acesse o SUAP</h3>
+<p>
+Acesse o <strong>SUAP</strong> do IFMT pelo link disponibilizado pela instituição
+e faça login com seus dados de acesso.
+</p>
+</div>
+
+<div class="passo">
+<h3>2. Acesse seu perfil</h3>
+<p>
+Após entrar no SUAP, clique na <strong>sua foto de perfil</strong>,
+localizada no canto superior da tela.
+</p>
+
+<img src="img/atestado/atestado1.png" alt="Acesso ao perfil no SUAP">
+<img src="img/atestado/atestado2.jpeg" alt="Opção Atividades Complementares no SUAP">
+
+</div>
+
+<div class="passo">
+<h3>3. Acesse “Atividades Complementares”</h3>
+<p>
+Desça a página até encontrar a opção
+<strong>“Atividades Complementares”</strong> e clique nela.
+</p>
+
+
+
+</div>
+
+<div class="passo">
+<h3>4. Envie uma atividade complementar</h3>
+<p>
+Na página de Atividades Complementares, clique na opção
+<strong>“Enviar Atividade Complementar”</strong>.
+</p>
+
+<img src="img/horas.jpg" alt="Enviar Atividade Complementar">
+
+</div>
+
+<div class="passo">
+<h3>5. Preencha as informações</h3>
+<p>
+Preencha os campos solicitados com as informações referentes
+à atividade complementar que deseja cadastrar.
+</p>
+
+<img src="img/horas2.jpg" alt="Preenchimento das informações da atividade complementar">
+
+<p>
+Após preencher todas as informações, confira os dados e clique em
+<strong>“Salvar”</strong>.
+</p>
+
+</div>
+
+<div class="passo">
+<h3>6. Aguarde o deferimento</h3>
+<p>
+Após o envio da atividade, aguarde a análise e o
+<strong>deferimento da Coordenação</strong>.
+</p>
+
+<p>
+Acompanhe o SUAP para verificar o andamento da solicitação.
+</p>
+
+</div>
+
+</div>
+`
 }
 
 
@@ -2853,6 +2946,7 @@ function abrir(id){
         behavior:"smooth"
 
     });
+    
 
 }
 
