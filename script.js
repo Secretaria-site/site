@@ -1059,7 +1059,7 @@ A aprovação da transferência depende do cumprimento dos requisitos previstos 
 <h3>Requerimento de transferência do IFMT Campus Campo Verde para outra instituição de ensino</h3>
 
 <p>
-Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@gmail.com
+Envie o requerimento abaixo preenchido e assinado para o e-mail: secretaria.cvd@ifmt.edu.br
 </p>
 
 <iframe
@@ -2780,7 +2780,7 @@ Para consultar o passo a passo completo, acesse o tutorial em PDF abaixo:
 <div class="passo">
 <h3>1. Acesse o SUAP</h3>
 <p>
-Acesse o <strong>SUAP</strong> do IFMT pelo link disponibilizado pela instituição
+Acesse o <strong><a href="https://suap.ifmt.edu.br/" target="_blank" rel="noopener noreferrer"></strong> do IFMT pelo link disponibilizado pela instituição
 e faça login com seus dados de acesso.
 </p>
 </div>
