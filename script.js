@@ -2778,12 +2778,13 @@ Para consultar o passo a passo completo, acesse o tutorial em PDF abaixo:
 <div class="tutorial">
 
 <div class="passo">
-<h3>1. Acesse o SUAP</h3>
-<p>
-Acesse o <strong><a href="https://suap.ifmt.edu.br/" target="_blank" rel="noopener noreferrer"></strong> do IFMT pelo link disponibilizado pela instituição
-e faça login com seus dados de acesso.
-</p>
+    <h3>1. Acesse o SUAP</h3>
+    <p>
+        Acesse o <strong><a href="https://suap.ifmt.edu.br/" target="_blank" rel="noopener noreferrer">SUAP</a></strong> do IFMT pelo link disponibilizado pela instituição
+        e faça login com seus dados de acesso.
+    </p>
 </div>
+
 
 <div class="passo">
 <h3>2. Acesse seu perfil</h3>
