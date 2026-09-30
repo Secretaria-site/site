@@ -2844,10 +2844,200 @@ conteudo: `
 
 </div>
 `
-}
+},
 
+{
+    id: 27,
+    titulo: "Solicitação de Aproveitamento de Atividades Complementares dos Alunos do Ensino Médio 2023 e 2024",
+    descricao: "Tutorial para solicitar o aproveitamento das Atividades Complementares e enviar os certificados para análise da Coordenação.",
+    palavras: [
+        "Ensino Médio ",
+        "Atividades Complementares ",
+        "certificados",
+        "carga horária",
+        "90 horas",
+        "60 horas",
+        "Coordenação",
+        "aproveitamento",
+        "certificados atividades complementares",
+        "2023 2025 "
+    ],
+    conteudo: `
 
+<h2>Solicitação de Aproveitamento de Atividades Complementares dos Alunos do Ensino Médio 2023 e 2024",</h2>
 
+<div class="tutorial">
+
+<div class="passo">
+    <h3>1. Reúna seus certificados</h3>
+
+    <p>
+        Separe todos os <strong>certificados e comprovantes</strong> das atividades
+        realizadas durante o curso.
+    </p>
+
+    <p>
+        Podem ser considerados, conforme o Regulamento de Atividades Complementares:
+    </p>
+
+    <ul>
+        <li>Cursos de curta duração;</li>
+        <li>Palestras;</li>
+        <li>Fóruns;</li>
+        <li>Seminários;</li>
+        <li>Eventos;</li>
+        <li>Visitas técnicas;</li>
+        <li>Atividades de ensino, pesquisa e extensão;</li>
+        <li>Estágio Supervisionado Não Obrigatório, respeitando o limite de <strong>60 horas</strong>.</li>
+    </ul>
+</div>
+
+<div class="passo">
+    <h3>2. Confira sua carga horária</h3>
+
+    <p>
+        Antes de enviar os documentos, some as horas de todas as atividades
+        que você pretende apresentar.
+    </p>
+
+    <p>
+        É necessário atingir <strong>no mínimo 90 horas</strong> de
+        Atividades Complementares.
+    </p>
+
+    <p>
+        <strong>Importante:</strong> até <strong>60 horas</strong> do
+        Estágio Supervisionado Não Obrigatório podem ser aproveitadas
+        para compor essa carga horária.
+    </p>
+</div>
+
+<div class="passo">
+    <h3>3. Organize os documentos</h3>
+
+    <p>
+        Digitalize todos os certificados e comprovantes que serão apresentados.
+    </p>
+
+    <p>
+        Depois, reúna todos os documentos em <strong>um único arquivo PDF</strong>.
+    </p>
+
+    <p>
+        Confira se:
+    </p>
+
+    <ul>
+        <li>Todos os certificados estão legíveis;</li>
+        <li>As informações do certificado podem ser identificadas;</li>
+        <li>A carga horária aparece nos documentos;</li>
+        <li>Todos os comprovantes estão no mesmo arquivo;</li>
+        <li>O arquivo não está corrompido.</li>
+    </ul>
+</div>
+
+<div class="passo">
+    <h3>4. Envie o arquivo para a Coordenação</h3>
+
+    <p>
+        Após organizar o PDF, envie um e-mail para:
+    </p>
+
+    <p>
+        <strong>
+            <a href="mailto:tecinfo.cvd@ifmt.edu.br">
+                tecinfo.cvd@ifmt.edu.br
+            </a>
+        </strong>
+    </p>
+
+    <p>
+        Utilize o seguinte assunto:
+    </p>
+
+    <p>
+        <strong>Atividades Complementares - [Seu Nome]</strong>
+    </p>
+
+    <p>
+        No e-mail, anexe o <strong>PDF único</strong> contendo todos os
+        certificados e comprovantes.
+    </p>
+</div>
+
+<div class="passo">
+    <h3>5. Aguarde a análise</h3>
+
+    <p>
+        Após o envio, a <strong>Coordenação/Banca responsável</strong>
+        fará a análise dos documentos apresentados.
+    </p>
+
+    <p>
+        Serão verificadas as atividades e suas respectivas cargas horárias
+        de acordo com o <strong>Regulamento de Atividades Complementares
+        (Anexo II do PPC)</strong>.
+    </p>
+</div>
+
+<div class="passo">
+    <h3>6. Confira o resultado da análise</h3>
+
+    <p>
+        Após a conferência dos documentos, poderão ocorrer as seguintes situações:
+    </p>
+
+    <p>
+        <strong>Se a carga horária válida for inferior a 90 horas:</strong>
+    </p>
+
+    <p>
+        Será necessário complementar a documentação com novas atividades
+        até atingir a carga horária mínima exigida.
+    </p>
+
+    <p>
+        <strong>Se a carga horária válida for igual ou superior a 90 horas:</strong>
+    </p>
+
+    <p>
+        As horas serão aprovadas e contabilizadas para o cumprimento das
+        Atividades Complementares.
+    </p>
+</div>
+
+<div class="passo">
+    <h3>7. Atenção</h3>
+
+    <p>
+        A apresentação dos certificados <strong>não significa aprovação
+        automática das horas</strong>.
+    </p>
+
+    <p>
+        A carga horária será analisada pela Coordenação/Banca conforme
+        as regras estabelecidas no <strong>Regulamento de Atividades
+        Complementares do PPC</strong>.
+    </p>
+
+    <p>
+        <strong>Carga horária mínima exigida: 90 horas.</strong>
+    </p>
+
+    <p>
+        <strong>Limite de aproveitamento de estágio não obrigatório: 60 horas.</strong>
+    </p>
+
+    <p>
+        Consulte o <strong>Regulamento de Atividades Complementares —
+        Anexo II do PPC</strong> para verificar as atividades previstas
+        e os critérios de aproveitamento.
+    </p>
+</div>
+
+</div>
+`
+},
 
 
 ];
