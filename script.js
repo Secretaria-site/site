@@ -3038,7 +3038,123 @@ conteudo: `
 </div>
 `
 },
+{
+    id: 28,
+    titulo: "Como acessar os certificados do IFMT",
+    descricao: "Tutorial para acessar os certificados dos eventos realizados pelo IFMT por meio do sistema de eventos.",
+    palavras: [
+        "certificados IFMT",
+        "certificados",
+        "eventos IFMT",
+        "acessar certificados",
+        "aluno IFMT",
+        "matrícula",
+        "senha SUAP",
+        "meus certificados"
+    ],
+    conteudo: `
 
+<h2>Como acessar os certificados do IFMT</h2>
+
+<div class="tutorial">
+
+<div class="passo">
+    <h3>1. Acesse o site de eventos do IFMT</h3>
+
+    <p>
+        Acesse o site de eventos do IFMT pelo link:
+    </p>
+
+    <p>
+        <strong>
+            <a href="https://eventos.ifmt.edu.br/" target="_blank" rel="noopener noreferrer">
+                https://eventos.ifmt.edu.br/
+            </a>
+        </strong>
+    </p>
+</div>
+
+<div class="passo">
+    <h3>2. Acesse o menu</h3>
+
+    <p>
+        No site de eventos do IFMT, clique nos
+        <strong>três traços</strong> para abrir o menu.
+    </p>
+
+    <img src="img/eventos/eventos1.png" alt="Menu do site de eventos do IFMT">
+</div>
+
+<div class="passo">
+    <h3>3. Faça login</h3>
+
+    <p>
+        No menu, clique na opção
+        <strong>“Fazer login”</strong>.
+    </p>
+
+    <img src="img/eventos/eventos2.png" alt="Opção Fazer login no site de eventos do IFMT">
+</div>
+
+<div class="passo">
+    <h3>4. Acesse como aluno do IFMT</h3>
+
+    <p>
+        Selecione a opção <strong>“Aluno do IFMT”</strong> e preencha
+        os campos solicitados com sua <strong>matrícula</strong> e
+        <strong>senha do SUAP</strong>.
+    </p>
+
+    <img src="img/eventos/eventos3.png" alt="Login como aluno do IFMT">
+</div>
+
+<div class="passo">
+    <h3>5. Confirme o acesso</h3>
+
+    <p>
+        Após realizar o login, será apresentada a confirmação de acesso.
+    </p>
+
+    <img src="img/eventos/eventos4.png" alt="Confirmação de acesso do aluno">
+</div>
+
+<div class="passo">
+    <h3>6. Acesse seu perfil</h3>
+
+    <p>
+        Clique novamente nos <strong>três traços</strong> para abrir o menu.
+    </p>
+
+    <img src="img/eventos/eventos1.png" alt="Menu do site de eventos do IFMT">
+    
+    <p>
+        Em seguida, clique em
+        <strong>“Bem vindo (a), aluno (a)!”</strong>.
+    </p>
+
+    <img src="img/eventos/eventos5.png" alt="Perfil do aluno no site de eventos">
+</div>
+
+<div class="passo">
+    <h3>7. Acesse seus certificados</h3>
+
+    <p>
+        Clique novamente nos <strong>três traços</strong> para abrir o menu.
+    </p>
+
+    <img src="img/eventos/eventos1.png" alt="Menu do site de eventos do IFMT">
+
+    <p>
+        Depois, clique na opção
+        <strong>“Meus certificados”</strong>.
+    </p>
+
+    <img src="img/eventos/eventos6.png" alt="Opção Meus certificados">
+</div>
+
+</div>
+`
+},
 
 ];
 
