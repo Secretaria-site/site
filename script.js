@@ -813,7 +813,6 @@ Em seguida, escolha sua turma/período de estudos e clique novamente em
 <strong>"Próxima"</strong>.
 </p>
 
-<img src="img/exe/exe3.png" alt="Passo 2 - Exercício domiciliar">
 <img src="img/exe/exe3.png" alt="Passo 3 - Exercício domiciliar">
 </div>
 
@@ -1987,7 +1986,7 @@ Abrir documento
 
         <a href="https://docs.google.com/document/d/1IWv0PLYCzejZnJTdrD7BG8FPQkfVx3xJXtdXZTKncc0/edit?tab=t.0
         target="_blank">
-            📥 Rquerimento
+            📥 Requerimento
         </a>
 
     </div>
