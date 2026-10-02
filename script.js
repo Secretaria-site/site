@@ -3129,7 +3129,7 @@ conteudo: `
     
     <p>
         Em seguida, clique em
-        <strong>“Bem vindo (a), aluno (a)!”</strong>.
+        <strong>“Bem vindo (a), aluno (a)! e em "Página do Participante”</strong>.
     </p>
 
     <img src="img/eventos/eventos5.png" alt="Perfil do aluno no site de eventos">
