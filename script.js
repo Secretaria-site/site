@@ -2848,7 +2848,7 @@ conteudo: `
 
 {
     id: 27,
-    titulo: "Solicitação de Aproveitamento de Atividades Complementares dos Alunos do Ensino Médio 2023 e 2024",
+    titulo: "Aproveitamento de Atividades Complementares – Ensino Médio 2024 e 2025",
     descricao: "Tutorial para solicitar o aproveitamento das Atividades Complementares e enviar os certificados para análise da Coordenação.",
     palavras: [
         "Ensino Médio ",
@@ -2860,7 +2860,7 @@ conteudo: `
         "Coordenação",
         "aproveitamento",
         "certificados atividades complementares",
-        "2023 2025 "
+        "2024 2025 "
     ],
     conteudo: `
 
