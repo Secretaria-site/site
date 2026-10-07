@@ -1190,10 +1190,10 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
 
 
 {
-    id:13,
-    titulo:"Estágios e TCC",
-    descricao:"Informações sobre solicitação de defesa, estágio, TCC, documentação e procedimentos após a banca.",
-    palavras:[
+    id: 13,
+    titulo: "Estágio",
+    descricao: "Informações sobre o estágio.",
+    palavras: [
         "estágio",
         "estagios",
         "tcc",
@@ -1203,170 +1203,267 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
         "orientador",
         "formulário",
         "solicitação de defesa",
+        "solicitação de estágio",
         "pasta de estágio",
         "versão final",
-        "suap"
+        "Agendamento de estágio"
     ],
-    conteudo:`
 
-<h2>Estágios e TCC — Solicitação de Defesa</h2>
+    conteudo: `
+        <h2>📋 Estágio</h2>
 
-<div class="tutorial">
+        <div class="botoes-estagio">
+            <button
+                type="button"
+                class="botao-estagio"
+                onclick="abrirTutorialEstagio('solicitar-estagio')">
+                📋 Como solicitar estágio
+            </button>
 
-<div class="passo">
-<h3>Passo 1 - Prazo para solicitar a defesa</h3>
+            <button
+                type="button"
+                class="botao-estagio"
+                onclick="abrirTutorialEstagio('solicitacao-defesa')">
+                🎓 Agendamento de estágio
+            </button>
+        </div>
 
-<p>
-O <strong>Formulário de Solicitação de Defesa</strong> deve ser enviado exclusivamente para o e-mail:
-</p>
+        <!-- TUTORIAL: COMO SOLICITAR ESTÁGIO -->
+        <div
+            id="solicitar-estagio"
+            class="tutorial-estagio"
+            style="display: none;">
 
-<div class="destaque">
-<strong>📧 estagios.cvd@ifmt.edu.br</strong>
-<br><br>
-<strong>⏰ Prazo:</strong> mínimo de 3 dias antes da data da banca.
-</div>
+            <h2>📋 Tutorial — Como solicitar estágio no IFMT Campus Campo Verde</h2>
 
-<p>
-A solicitação deve ser encaminhada dentro do prazo estabelecido para que o processo de defesa possa ser analisado e registrado pelo setor.
-</p>
-</div>
+            <div class="passo">
+                <h3>1. Acesse o formulário</h3>
+                <p>
+                    Acesse o formulário de solicitação de estágio pelo QR Code
+                    disponibilizado pelo IFMT.
+                </p>
 
+                <a
+                    href="https://form.jotform.com/211865464887673"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="botao-estagio">
+                    📝 Acessar formulário de solicitação de estágio
+                </a>
+            </div>
 
-<div class="passo">
-<h3>Passo 2 - Agendamento e preenchimento do formulário</h3>
+            <div class="passo">
+                <h3>2. Preencha o formulário</h3>
+                <p>Preencha todas as informações solicitadas.</p>
+                <p>
+                    Ao finalizar, o formulário irá gerar
+                    <strong>4 documentos em PDF.</strong>
+                </p>
+            </div>
 
-<p>
-O(a) orientador(a) deve definir, juntamente com o estudante:
-</p>
+            <div class="passo">
+                <h3>3. Baixe somente os documentos necessários</h3>
 
-<ul>
-<li>Data da defesa;</li>
-<li>Horário da defesa;</li>
-<li>Formato da defesa.</li>
-</ul>
+                <p>Se o estágio for <strong>obrigatório:</strong></p>
+                <ul>
+                    <li>📄 Plano de Estágio</li>
+                    <li>📄 Carta de Aceite de Orientação</li>
+                </ul>
 
-<p>
-Após definir essas informações, o(a) orientador(a) deverá convidar os <strong>dois membros da banca</strong> e preencher digitalmente o <strong>Formulário de Solicitação de Defesa</strong>.
-</p>
-</div>
+                <p>
+                    Se o estágio for
+                    <strong>não obrigatório (extracurricular):</strong>
+                </p>
+                <ul>
+                    <li>📄 Plano de Estágio Não Obrigatório</li>
+                    <li>📄 Carta de Aceite Não Obrigatório</li>
+                </ul>
 
+                <div class="destaque">
+                    ⚠️ <strong>Importante:</strong>
+                    <p>
+                        Não é necessário baixar os 4 documentos.
+                        Baixe somente os 2 correspondentes ao seu tipo de estágio.
+                    </p>
+                </div>
+            </div>
 
-<div class="passo">
-<h3>Passo 3 - Envio da solicitação</h3>
+            <div class="passo">
+                <h3>4. Colete as assinaturas</h3>
+                <p>
+                    Imprima os dois documentos e providencie as assinaturas
+                    necessárias, especialmente no:
+                </p>
+                <ul>
+                    <li>📄 Plano de Estágio</li>
+                    <li>📄 Carta de Aceite do Orientador</li>
+                </ul>
+            </div>
 
-<p>
-Depois de preencher o formulário, o(a) orientador(a) deverá encaminhá-lo para o e-mail do setor:
-</p>
+            <div class="passo">
+                <h3>5. Solicite a declaração da coordenação</h3>
+                <p>
+                    Peça à Coordenação do seu curso uma declaração contendo:
+                </p>
+                <ul>
+                    <li>Descrição do curso;</li>
+                    <li>Carga horária semanal.</li>
+                </ul>
+                <p>
+                    Essa declaração será utilizada na documentação do estágio.
+                </p>
+            </div>
 
-<div class="destaque">
-<strong>📧 estagios.cvd@ifmt.edu.br</strong>
-</div>
+            <div class="passo">
+                <h3>6. Junte os documentos</h3>
+                <p>Ao final, você deverá ter <strong>3 documentos em PDF:</strong></p>
+                <ol>
+                    <li>📄 Plano de Estágio;</li>
+                    <li>📄 Carta de Aceite do Orientador;</li>
+                    <li>📄 Declaração da Coordenação do Curso.</li>
+                </ol>
+            </div>
 
-<p>
-O envio deve ser realizado com <strong>antecedência mínima de 3 dias antes da data da banca</strong>.
-</p>
-</div>
+            <div class="passo">
+                <h3>7. Digitalize os documentos</h3>
+                <p>
+                    Digitalize os três documentos e salve-os em formato PDF.
+                </p>
+                <p>
+                    📱 É possível fazer a digitalização utilizando o próprio celular.
+                </p>
+            </div>
 
+            <div class="passo">
+                <h3>8. Envie por e-mail</h3>
+                <p>Envie os 3 documentos em PDF para:</p>
+                <div class="destaque">
+                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                </div>
+            </div>
 
-<div class="passo">
-<h3>Passo 4 - Se a defesa for de Estágio</h3>
+            <div class="passo">
+                <h3>9. Aguarde a confirmação</h3>
+                <p>
+                    Após o envio, aguarde a notificação do setor responsável
+                    para a assinatura do
+                    <strong>Termo de Compromisso de Estágio.</strong>
+                </p>
+            </div>
 
-<p>
-Quando a defesa for referente ao <strong>Estágio</strong>, o(a) orientador(a) deverá instruir o estudante a enviar sua:
-</p>
+            <div class="destaque">
+                <h3>⚠️ IMPORTANTE</h3>
+                <p>
+                    <strong>
+                        Não inicie o estágio sem estar com toda a documentação regularizada.
+                    </strong>
+                </p>
+                <p>
+                    O estágio realizado sem a documentação necessária não será
+                    reconhecido como estágio e você não terá cobertura do seguro escolar.
+                </p>
+            </div>
+        </div>
 
-<div class="destaque">
-<strong>📂 Pasta de estágio completa</strong>
-</div>
+        <!-- TUTORIAL: SOLICITAÇÃO DE DEFESA -->
+        <div
+            id="solicitacao-defesa"
+            class="tutorial-estagio"
+            style="display: none;">
 
-<p>
-A pasta deverá ser encaminhada para o e-mail do setor para fins de <strong>análise e pontuação</strong>.
-</p>
+            <h2>🎓 Tutorial — Agendamento de Estágio</h2>
 
-<div class="destaque">
-<strong>📧 estagios.cvd@ifmt.edu.br</strong>
-</div>
-</div>
+            <div class="passo">
+                <h3>Passo 1 - Prazo para solicitar a defesa</h3>
+                <p>
+                    O <strong>Formulário de Solicitação de Defesa</strong>
+                    deve ser enviado exclusivamente para o e-mail:
+                </p>
 
+                <div class="destaque">
+                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                    <br><br>
+                    <strong>⏰ Prazo:</strong>
+                    mínimo de 3 dias antes da data da banca.
+                </div>
 
-<div class="passo">
-<h3>Passo 5 - Se a defesa for de TCC / Monografia</h3>
+                <p>
+                    A solicitação deve ser encaminhada dentro do prazo estabelecido
+                    para que o processo de defesa possa ser analisado e registrado
+                    pelo setor.
+                </p>
+            </div>
 
-<p>
-Após o término da apresentação do <strong>TCC ou Monografia</strong>, o(a) orientador(a) deverá enviar para o e-mail do setor as seguintes informações:
-</p>
+            <div class="passo">
+                <h3>Passo 2 - Agendamento e preenchimento do formulário</h3>
+                <p>
+                    O(a) orientador(a) deve definir, juntamente com o estudante:
+                </p>
+                <ul>
+                    <li>Data da defesa;</li>
+                    <li>Horário da defesa;</li>
+                    <li>Formato da defesa.</li>
+                </ul>
+                <p>
+                    Após definir essas informações, o(a) orientador(a) deverá
+                    convidar os <strong>dois membros da banca</strong> e preencher
+                    digitalmente o
+                    <strong>Formulário de Solicitação de Defesa.</strong>
+                </p>
+            </div>
 
-<ul>
-<li><strong>Data da apresentação;</strong></li>
-<li><strong>Nota atribuída;</strong></li>
-<li><strong>Observações e apreciações da banca;</strong></li>
-<li><strong>Arquivo do TCC/Relatório utilizado na defesa.</strong></li>
-</ul>
+            <div class="passo">
+                <h3>Passo 3 - Envio da solicitação</h3>
+                <p>
+                    Depois de preencher o formulário, o(a) orientador(a) deverá
+                    encaminhá-lo para o e-mail do setor:
+                </p>
 
-<p>
-O objetivo é permitir que o setor registre os resultados e gere o <strong>documento consolidado</strong> para a coleta das assinaturas da banca na ata.
-</p>
-</div>
+                <div class="destaque">
+                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                </div>
 
+                <p>
+                    O envio deve ser realizado com
+                    <strong>antecedência mínima de 3 dias antes da data da banca.</strong>
+                </p>
+            </div>
 
-<div class="passo">
-<h3>Passo 6 - Correções e versão final do TCC</h3>
+            <div class="passo">
+                <h3>Passo 4 - Se a defesa for de Estágio</h3>
+                <p>
+                    Quando a defesa for referente ao <strong>Estágio</strong>,
+                    o(a) orientador(a) deverá instruir o estudante a enviar sua:
+                </p>
 
-<p>
-Após a defesa, o estudante deverá realizar os <strong>ajustes sugeridos pela banca examinadora</strong>.
-<br><br>
-Depois de concluir as correções, deverá entregar ao(à) orientador(a) a <strong>versão final e definitiva do TCC</strong>.
-</p>
-</div>
+                <div class="destaque">
+                    <strong>📂 Pasta de estágio completa</strong>
+                </div>
 
+                <p>
+                    A pasta deverá ser encaminhada para o e-mail do setor
+                    para fins de <strong>análise e pontuação.</strong>
+                </p>
 
-<div class="passo">
-<h3>Passo 7 - Registro da versão final no SUAP</h3>
+                <div class="destaque">
+                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                </div>
+            </div>
 
-<p>
-Assim que o estudante realizar os ajustes sugeridos e entregar a versão final e definitiva do TCC, o(a) orientador(a) deverá encaminhar o arquivo para:
-</p>
-
-<div class="destaque">
-<strong>📧 estagios.cvd@ifmt.edu.br</strong>
-</div>
-
-<p>
-O setor realizará o <strong>registro definitivo da versão final no sistema SUAP</strong>.
-</p>
-</div>
-
-
-<div class="passo">
-<h3>Passo 8 - Formulário de Solicitação de Defesa</h3>
-
-<p>
-Para realizar a solicitação da defesa, utilize o <strong>Formulário de Solicitação de Defesa</strong>.
-<br><br>
-O formulário deverá ser preenchido digitalmente pelo(a) orientador(a) e encaminhado para o e-mail do setor dentro do prazo estabelecido.
-</p>
-
-<div class="destaque">
-<strong>📧 Envio:</strong> estagios.cvd@ifmt.edu.br
-<br>
-<strong>⏰ Prazo:</strong> mínimo de 3 dias antes da banca
-</div>
-
-</div>
-
-</div>
-
-<iframe
-src="img/estetcc.pdf"
-width="100%"
-height="400"
-style="border:none;">
-</iframe>
-</div>
-
-</div>
-
-`
+            <div class="passo">
+                <h3>Passo 5 - Formulário de Solicitação de Defesa</h3>
+                <p>
+                    Para realizar a solicitação da defesa, utilize o
+                    <strong>Formulário de Solicitação de Defesa.</strong>
+                </p>
+                <p>
+                    O formulário deverá ser preenchido digitalmente pelo(a)
+                    orientador(a) e encaminhado para o e-mail do setor
+                    dentro do prazo estabelecido.
+                </p>
+            </div>
+        </div>
+    `
 },
 
 
@@ -3248,6 +3345,29 @@ function abrir(id){
     
 
 }
+window.abrirTutorialEstagio = function (id) {
+    // Localiza todos os tutoriais de estágio
+    const tutoriais = document.querySelectorAll(".tutorial-estagio");
+
+    // Fecha todos os tutoriais
+    tutoriais.forEach(function (tutorial) {
+        tutorial.style.display = "none";
+    });
+
+    // Localiza o tutorial selecionado
+    const tutorialSelecionado = document.getElementById(id);
+
+    // Abre o tutorial selecionado
+    if (tutorialSelecionado) {
+        tutorialSelecionado.style.display = "block";
+
+        // Rola a página até o tutorial
+        tutorialSelecionado.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    }
+};
 
 // ================================
 // BOTÃO VOLTAR
