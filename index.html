@@ -1,234 +1,174 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html lang="pt-BR">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Serviços e Informações | Secretaria IFMT</title>
+  <title>Serviços e Informações | Secretaria IFMT Campo Verde</title>
+  <meta
+    name="description"
+    content="Procedimentos acadêmicos da secretaria do IFMT Campus Campo Verde."
+  >
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Archivo+Black&display=swap"
+    rel="stylesheet"
+  >
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- =========================
-         MENU LATERAL
-    ========================== -->
+  <header class="cabecalho largura">
+    <div class="marca">
+      <img
+        id="logo-topo"
+        src="img/logo-claro.png"
+        alt="Logo IFMT"
+      >
 
-    <aside id="menu">
+      <div>
+        <strong>IFMT · Campo Verde</strong>
+        <small>Secretaria Acadêmica</small>
+      </div>
+    </div>
 
-        <div class="logo-menu">
+    <div class="acoes">
+      <nav>
+        <a href="#inicio" data-inicio>Início</a>
+        <a href="#procedimentos" data-inicio>Procedimentos</a>
+        <a href="#categorias" data-inicio>Categorias</a>
+      </nav>
 
-            <div class="logo-if">
+      <button
+        id="alternar-tema"
+        class="icone"
+        type="button"
+        aria-label="Ativar modo noturno"
+        title="Modo noturno"
+      >
+        ☾
+      </button>
+    </div>
+  </header>
 
-                <img
-                    class="logo-imagem"
-                    src="img/logo-claro.png"
-                    alt="Logo IFMT"
-                >
+  <main id="inicio">
 
-            </div>
+    <section class="apresentacao largura">
+      <span class="selo">Tudo da secretaria, sem enrolação</span>
 
-            <div>
+      <h1>
+        Bem-vindo(a)!<br>
+        <em>Descubra</em> como<br>
+        resolver <b>tudo</b> por aqui.
+      </h1>
 
-                <h2>Secretaria</h2>
-                <p>IFMT Campo Verde</p>
+      <p>
+        Busque o procedimento que precisa e siga o passo a passo.
+        Sem fila, sem mistério — só o que a secretaria acadêmica resolve.
+      </p>
 
-            </div>
+      <label class="busca">
+        <span>⌕</span>
 
-        </div>
+        <input
+          id="busca"
+          type="search"
+          placeholder="Ex: segunda chamada, SUAP, justificativa..."
+          aria-label="Buscar procedimento"
+        >
+      </label>
+    </section>
 
-        <ul id="listaMenu"></ul>
+    <section id="categorias" class="largura secao">
+      <h2>Categorias</h2>
 
-    </aside>
+      <div
+        id="botoes-categorias"
+        class="categorias"
+      ></div>
+    </section>
 
+    <section id="procedimentos" class="largura secao">
 
-    <!-- Fundo escuro quando o menu abrir -->
+      <div class="titulo-linha">
+        <h2>Procedimentos</h2>
+        <span id="contador"></span>
+      </div>
 
-    <div id="overlay"></div>
-
-
-    <!-- =========================
-         CABEÇALHO
-    ========================== -->
-
-    <header>
-
-        <div class="logo">
-
-            <div class="logo-if">
-
-                <img
-                    class="logo-imagem"
-                    src="img/logo-claro.png"
-                    alt="Logo IFMT"
-                >
-
-            </div>
-
-            <div>
-
-                <h1>Serviços e Informações</h1>
-
-                <span>
-                    Instituto Federal de Mato Grosso
-                </span>
-
-            </div>
-
-        </div>
-
-
-        <div class="acoes">
-
-            <button id="tema">
-
-                <span class="material-icons-round">
-                    dark_mode
-                </span>
-
-            </button>
-
-
-            <button id="abrirMenu">
-
-                <span class="material-icons-round">
-                    more_vert
-                </span>
-
-            </button>
-
-        </div>
-
-    </header>
-
-
-    <!-- =========================
-         HERO / PESQUISA
-    ========================== -->
-
-    <section class="hero" id="hero">
-
-        <h2>Bem-vindo(a)!</h2>
-
-        <p>
-            Encontre rapidamente qualquer procedimento acadêmico da secretaria.
-        </p>
-
-
-        <div class="pesquisa">
-
-            <span class="material-icons-round">
-                search
-            </span>
-
-            <input
-                id="buscar"
-                type="text"
-                placeholder="Pesquisar assunto..."
-            >
-
-        </div>
+      <div
+        id="lista-assuntos"
+        class="grade"
+      ></div>
 
     </section>
 
+  </main>
 
-    <!-- =========================
-         CONTEÚDO
-    ========================== -->
-
-    <main>
-
-        <section id="cards">
-
-        </section>
-
-
-        <section id="conteudo" class="oculto">
-
-            <button id="voltar">
-
-                <span class="material-icons-round">
-                    arrow_back
-                </span>
-
-                Voltar
-
-            </button>
-
-
-            <div id="pagina">
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-  
-
-    <button id="topo">
-
-        <span class="material-icons-round">
-            keyboard_arrow_up
-        </span>
-
+  <main
+    id="detalhe"
+    class="largura detalhe"
+    hidden
+  >
+    <button
+      id="voltar"
+      class="voltar"
+      type="button"
+    >
+      ← Voltar
     </button>
 
+    <div
+      id="conteudo-assunto"
+      class="conteudo-assunto"
+    ></div>
+  </main>
 
-    <!-- =========================
-         RODAPÉ
-    ========================== -->
+  <footer>
 
-    <footer>
+    <div class="largura rodape">
 
-        <div class="passo">
+      <div class="marca">
+        <img
+          id="logo-rodape"
+          src="img/logo-claro.png"
+          alt="Logo IFMT"
+        >
 
-            <h3>
-                Assuntos Gerais da Secretaria
-            </h3>
-
-
-            <p>
-                Instituto Federal de Mato Grosso
-                Campus Campo Verde
-            </p>
-
-
-            <small>
-
-                Projeto informativo não oficial desenvolvido para facilitar o acesso dos estudantes às informações acadêmicas.
-
-                <br>
-
-                © 2026 • Desenvolvido por Yasmim Santos Adib Nafi (Estagiária).
-
-            </small>
-
+        <div>
+          <strong>IFMT · Campus Campo Verde</strong>
+          <small>Secretaria Acadêmica</small>
         </div>
+      </div>
 
-    </footer>
+      <p>
+        Projeto informativo não oficial desenvolvido para facilitar
+        o acesso dos estudantes às informações acadêmicas.
+      </p>
 
+    </div>
 
-    <!-- =========================
-         JAVASCRIPT
-    ========================== -->
+    <div class="largura credito">
+      © 2026 · Desenvolvido por Yasmim Santos Adib Nafi (Estagiária)
+    </div>
 
-    <script src="script.js"></script>
+  </footer>
 
-    <script src="menu-categorias.js"></script>
+  <button
+    id="topo"
+    class="topo"
+    type="button"
+    aria-label="Voltar ao topo"
+  >
+    ↑
+  </button>
 
-    
+  <script src="script.js"></script>
 
 </body>
-
 </html>

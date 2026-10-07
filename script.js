@@ -3256,96 +3256,62 @@ conteudo: `
 
 ];
 
-// =======================
+const categorias = [
+  { nome: "Matrícula & SUAP", ids: [1, 2, 3, 10, 11, 18] },
+  { nome: "Provas & Notas", ids: [8, 16, 24, 26, 27] },
+  { nome: "Presença & Faltas", ids: [7, 9] },
+  { nome: "Currículos & PPCs", ids: [6, 13, 23] },
+  { nome: "E-mail & Contas", ids: [4, 14, 15, 28] },
+  { nome: "Documentos & Outros", ids: [5, 12, 17, 20, 21, 22, 25] },
+];
 
-const cards=document.querySelector("#cards");
-const lista=document.querySelector("#listaMenu");
-const pesquisa=document.querySelector("#buscar");
-const pagina=document.querySelector("#pagina");
-const conteudo=document.querySelector("#conteudo");
+const cores = ["verde", "laranja", "lima", "escuro", "verde-escuro"];
+const estado = { busca: "", categoria: "Todos", aberto: null };
+const inicio = document.querySelector("#inicio");
+const detalhe = document.querySelector("#detalhe");
+const lista = document.querySelector("#lista-assuntos");
+const contador = document.querySelector("#contador");
+const busca = document.querySelector("#busca");
+const botoesCategorias = document.querySelector("#botoes-categorias");
+const conteudo = document.querySelector("#conteudo-assunto");
+const tema = document.querySelector("#alternar-tema");
+const logoTopo = document.querySelector("#logo-topo");
+const logoRodape = document.querySelector("#logo-rodape");
 
-function criarCards(listaAssuntos){
-
-cards.innerHTML="";
-
-listaAssuntos.forEach(item=>{
-
-cards.innerHTML+=`
-
-<div class="card" onclick="abrir(${item.id})">
-
-<div class="icone">
-
-<span class="material-icons-round">
-folder
-</span>
-
-</div>
-
-<h3>${item.titulo}</h3>
-
-<p>${item.descricao}</p>
-
-</div>
-
-`;
-
-});
-
+function categoriaDo(id) {
+  const categoria = categorias.find((item) => item.ids.includes(id));
+  return categoria ? categoria.nome : "Documentos & Outros";
 }
 
-function criarMenu(){
-
-lista.innerHTML="";
-
-assuntos.forEach(item=>{
-
-lista.innerHTML+=`
-
-<li onclick="abrir(${item.id})">
-
-${item.titulo}
-
-</li>
-
-`;
-
-});
-
+function filtrar() {
+  const texto = estado.busca.toLocaleLowerCase("pt-BR").trim();
+  return assuntos.filter((item) => {
+    const bateTexto = !texto || item.titulo.toLocaleLowerCase("pt-BR").includes(texto) ||
+      item.descricao.toLocaleLowerCase("pt-BR").includes(texto) ||
+      item.palavras.some((palavra) => palavra.toLocaleLowerCase("pt-BR").includes(texto));
+    const bateCategoria = estado.categoria === "Todos" || categoriaDo(item.id) === estado.categoria;
+    return bateTexto && bateCategoria;
+  });
 }
 
-criarCards(assuntos);
+function renderizarCategorias() {
+  botoesCategorias.innerHTML = ["Todos", ...categorias.map((item) => item.nome)].map((nome) =>
+    `<button class="categoria${estado.categoria === nome ? " ativa" : ""}" data-categoria="${nome}">${nome}</button>`
+  ).join("");
+}
 
-criarMenu();
-// ================================
-// ABRIR PÁGINA DO ASSUNTO
-// ================================
-
-function abrir(id){
-
-    const assunto = assuntos.find(item => item.id === id);
-
-    if(!assunto) return;
-
-    document.getElementById("hero").style.display="none";
-
-    document.getElementById("cards").style.display="none";
-
-    conteudo.classList.remove("oculto");
-
-    pagina.innerHTML = assunto.conteudo;
-
-    fecharMenu();
-
-    window.scrollTo({
-
-        top:0,
-
-        behavior:"smooth"
-
-    });
-    
-
+function renderizarLista() {
+  const itens = filtrar();
+  contador.textContent = `${itens.length} ${itens.length === 1 ? "assunto" : "assuntos"}`;
+  if (!itens.length) {
+    lista.innerHTML = `<div class="vazio"><strong>Nada encontrado</strong><p>Tente outra palavra-chave ou navegue pelas categorias.</p></div>`;
+    return;
+  }
+  lista.innerHTML = itens.map((item, indice) => `
+    <article class="cartao" data-id="${item.id}" tabindex="0" role="button" aria-label="Abrir ${item.titulo}">
+      <span class="inicial ${cores[indice % cores.length]}">${item.titulo.charAt(0)}</span>
+      <h3>${item.titulo}</h3><p>${item.descricao}</p><strong>Passo a passo →</strong>
+    </article>`).join("");
 }
 window.abrirTutorialEstagio = function (id) {
     // Localiza todos os tutoriais de estágio
@@ -3370,190 +3336,48 @@ window.abrirTutorialEstagio = function (id) {
         });
     }
 };
+function abrirAssunto(id) {
+  const item = assuntos.find((assunto) => assunto.id === Number(id));
+  if (!item) return;
+  estado.aberto = item;
+  conteudo.innerHTML = item.conteudo;
+  inicio.hidden = true;
+  detalhe.hidden = false;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
-// ================================
-// BOTÃO VOLTAR
-// ================================
+function voltar() {
+  estado.aberto = null;
+  detalhe.hidden = true;
+  inicio.hidden = false;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
-document
-.getElementById("voltar")
-.addEventListener("click",()=>{
+function aplicarTema(escuro) {
+  document.documentElement.classList.toggle("dark", escuro);
+  localStorage.setItem("modo-noturno", String(escuro));
+  tema.textContent = escuro ? "☀" : "☾";
+  tema.setAttribute("aria-label", escuro ? "Ativar modo claro" : "Ativar modo noturno");
+  tema.title = escuro ? "Modo claro" : "Modo noturno";
+  logoTopo.src = escuro ? "img/logo-escuro.png" : "img/logo-claro.png";
+  logoRodape.src = escuro ? "img/logo-escuro.png" : "img/logo-claro.png";
+}
 
-    document.getElementById("hero").style.display="block";
-
-    document.getElementById("cards").style.display="grid";
-
-    conteudo.classList.add("oculto");
-
-    pesquisa.value="";
-
-    criarCards(assuntos);
-
+busca.addEventListener("input", (evento) => { estado.busca = evento.target.value; renderizarLista(); });
+botoesCategorias.addEventListener("click", (evento) => {
+  const botao = evento.target.closest("[data-categoria]");
+  if (!botao) return;
+  estado.categoria = botao.dataset.categoria;
+  renderizarCategorias(); renderizarLista();
 });
-
-// ================================
-// PESQUISA
-// ================================
-
-pesquisa.addEventListener("keyup",(e)=>{
-
-    const texto=e.target.value.toLowerCase();
-
-    const resultado=assuntos.filter(item=>{
-
-        return(
-
-            item.titulo.toLowerCase().includes(texto)
-
-            ||
-
-            item.descricao.toLowerCase().includes(texto)
-
-            ||
-
-            item.palavras.some(p=>p.includes(texto))
-
-        );
-
-    });
-
-    criarCards(resultado);
-
-});
-
-// ================================
-// MENU LATERAL
-// ================================
-
-const menu=document.getElementById("menu");
-
-const overlay=document.getElementById("overlay");
-
-const abrirMenu=document.getElementById("abrirMenu");
-
-abrirMenu.onclick=()=>{
-
-    menu.classList.add("aberto");
-
-    overlay.classList.add("ativo");
-
-}
-
-function fecharMenu(){
-
-    menu.classList.remove("aberto");
-
-    overlay.classList.remove("ativo");
-
-}
-
-overlay.onclick=fecharMenu;
-
-// ================================
-// MODO ESCURO
-// ================================
-
-const botaoTema = document.getElementById("tema");
-
-botaoTema.onclick = () => {
-
-    document.body.classList.toggle("dark");
-
-    const icone = botaoTema.querySelector("span");
-    const logos = document.querySelectorAll(".logo-imagem");
-
-    if (document.body.classList.contains("dark")) {
-
-        icone.textContent = "light_mode";
-
-        logos.forEach(logo => {
-            logo.src = "img/logo-escuro.png";
-        });
-
-    } else {
-
-        icone.textContent = "dark_mode";
-
-        logos.forEach(logo => {
-            logo.src = "img/logo-claro.png";
-        });
-
-    }
-
-};
-
-
-const topo=document.getElementById("topo");
-
-window.addEventListener("scroll",()=>{
-
-    if(window.scrollY>350){
-
-        topo.style.display="flex";
-
-    }
-
-    else{
-
-        topo.style.display="none";
-
-    }
-
-});
-
-topo.onclick=()=>{
-
-    window.scrollTo({
-
-        top:0,
-
-        behavior:"smooth"
-
-    });
-
-}
-
-
-function animarCards(){
-
-    const lista=document.querySelectorAll(".card");
-
-    lista.forEach((card,index)=>{
-
-        card.style.opacity="0";
-
-        card.style.transform="translateY(30px)";
-
-        setTimeout(()=>{
-
-            card.style.transition=".4s";
-
-            card.style.opacity="1";
-
-            card.style.transform="translateY(0)";
-
-        },index*80);
-
-    });
-
-}
-
-animarCards();
-
-
-
-const criarOriginal=criarCards;
-
-criarCards=function(lista){
-
-    criarOriginal(lista);
-
-    animarCards();
-
-}
-
-// ================================
-// FIM
-// ================================
-
-console.log("Sistema carregado com sucesso.");
+lista.addEventListener("click", (evento) => { const cartao = evento.target.closest("[data-id]"); if (cartao) abrirAssunto(cartao.dataset.id); });
+lista.addEventListener("keydown", (evento) => { if (evento.key === "Enter" || evento.key === " ") { const cartao = evento.target.closest("[data-id]"); if (cartao) abrirAssunto(cartao.dataset.id); } });
+document.querySelector("#voltar").addEventListener("click", voltar);
+document.querySelectorAll("[data-inicio]").forEach((item) => item.addEventListener("click", voltar));
+document.querySelector("#topo").addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
+tema.addEventListener("click", () => aplicarTema(!document.documentElement.classList.contains("dark")));
+
+const salvo = localStorage.getItem("modo-noturno");
+aplicarTema(salvo === "true" || (salvo === null && matchMedia("(prefers-color-scheme: dark)").matches));
+renderizarCategorias();
+renderizarLista();
