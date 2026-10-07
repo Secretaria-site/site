@@ -3381,3 +3381,21 @@ const salvo = localStorage.getItem("modo-noturno");
 aplicarTema(salvo === "true" || (salvo === null && matchMedia("(prefers-color-scheme: dark)").matches));
 renderizarCategorias();
 renderizarLista();
+
+function abrirTutorialEstagio(id) {
+    const tutoriais = document.querySelectorAll(".tutorial-estagio");
+
+    tutoriais.forEach((tutorial) => {
+        tutorial.style.display = "none";
+    });
+
+    const tutorial = document.getElementById(id);
+
+    if (tutorial) {
+        tutorial.style.display = "block";
+        tutorial.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+    }
+}
