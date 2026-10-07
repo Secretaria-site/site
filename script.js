@@ -1182,6 +1182,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
 </p>
 </div>
 
+
 </div>
 
 `
@@ -1462,6 +1463,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                     dentro do prazo estabelecido.
                 </p>
             </div>
+            <div class="passo"> <h3>📄 Documento de Agendamento de Estágio</h3> <iframe src="img/estetcc.pdf" width="100%" height="500" style="border: none;"> </iframe> </div>
         </div>
     `
 },
