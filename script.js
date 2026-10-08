@@ -878,7 +878,7 @@ Abra o e-mail recebido, clique em <strong>"Encaminhar"</strong> e envie para a S
 
 <div class="destaque">
 <strong>Campus Campo Verde</strong><br>
-📧 secretaria.cvd@ifmt.com.br
+ secretaria.cvd@ifmt.com.br
 </div>
 
 <p>
@@ -1211,21 +1211,21 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
     ],
 
     conteudo: `
-        <h2>📋 Estágio</h2>
+        <h2> Estágio</h2>
 
         <div class="botoes-estagio">
             <button
                 type="button"
                 class="botao-estagio"
                 onclick="abrirTutorialEstagio('solicitar-estagio')">
-                📋 Como solicitar estágio
+                 Como solicitar estágio
             </button>
 
             <button
                 type="button"
                 class="botao-estagio"
                 onclick="abrirTutorialEstagio('solicitacao-defesa')">
-                🎓 Agendamento de estágio
+                 Agendamento de estágio
             </button>
         </div>
 
@@ -1235,7 +1235,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
             class="tutorial-estagio"
             style="display: none;">
 
-            <h2>📋 Tutorial — Como solicitar estágio no IFMT Campus Campo Verde</h2>
+            <h2> Tutorial — Como solicitar estágio no IFMT Campus Campo Verde</h2>
 
             <div class="passo">
                 <h3>1. Acesse o formulário</h3>
@@ -1249,7 +1249,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                     target="_blank"
                     rel="noopener noreferrer"
                     class="botao-estagio">
-                    📝 Acessar formulário de solicitação de estágio
+                     Acessar formulário de solicitação de estágio
                 </a>
             </div>
 
@@ -1267,8 +1267,8 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
 
                 <p>Se o estágio for <strong>obrigatório:</strong></p>
                 <ul>
-                    <li>📄 Plano de Estágio</li>
-                    <li>📄 Carta de Aceite de Orientação</li>
+                    <li> Plano de Estágio</li>
+                    <li> Carta de Aceite de Orientação</li>
                 </ul>
 
                 <p>
@@ -1276,8 +1276,8 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                     <strong>não obrigatório (extracurricular):</strong>
                 </p>
                 <ul>
-                    <li>📄 Plano de Estágio Não Obrigatório</li>
-                    <li>📄 Carta de Aceite Não Obrigatório</li>
+                    <li> Plano de Estágio Não Obrigatório</li>
+                    <li> Carta de Aceite Não Obrigatório</li>
                 </ul>
 
                 <div class="destaque">
@@ -1296,8 +1296,8 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                     necessárias, especialmente no:
                 </p>
                 <ul>
-                    <li>📄 Plano de Estágio</li>
-                    <li>📄 Carta de Aceite do Orientador</li>
+                    <li> Plano de Estágio</li>
+                    <li> Carta de Aceite do Orientador</li>
                 </ul>
             </div>
 
@@ -1319,9 +1319,9 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                 <h3>6. Junte os documentos</h3>
                 <p>Ao final, você deverá ter <strong>3 documentos em PDF:</strong></p>
                 <ol>
-                    <li>📄 Plano de Estágio;</li>
-                    <li>📄 Carta de Aceite do Orientador;</li>
-                    <li>📄 Declaração da Coordenação do Curso.</li>
+                    <li> Plano de Estágio;</li>
+                    <li> Carta de Aceite do Orientador;</li>
+                    <li> Declaração da Coordenação do Curso.</li>
                 </ol>
             </div>
 
@@ -1331,7 +1331,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                     Digitalize os três documentos e salve-os em formato PDF.
                 </p>
                 <p>
-                    📱 É possível fazer a digitalização utilizando o próprio celular.
+                     É possível fazer a digitalização utilizando o próprio celular.
                 </p>
             </div>
 
@@ -1339,7 +1339,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                 <h3>8. Envie por e-mail</h3>
                 <p>Envie os 3 documentos em PDF para:</p>
                 <div class="destaque">
-                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                    <strong> estagios.cvd@ifmt.edu.br</strong>
                 </div>
             </div>
 
@@ -1372,7 +1372,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
             class="tutorial-estagio"
             style="display: none;">
 
-            <h2>🎓 Tutorial — Agendamento de Estágio</h2>
+            <h2> Tutorial — Agendamento de Estágio</h2>
 
             <div class="passo">
                 <h3>Passo 1 - Prazo para solicitar a defesa</h3>
@@ -1382,9 +1382,9 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                 </p>
 
                 <div class="destaque">
-                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                    <strong> estagios.cvd@ifmt.edu.br</strong>
                     <br><br>
-                    <strong>⏰ Prazo:</strong>
+                    <strong> Prazo:</strong>
                     mínimo de 3 dias antes da data da banca.
                 </div>
 
@@ -1421,7 +1421,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                 </p>
 
                 <div class="destaque">
-                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                    <strong> estagios.cvd@ifmt.edu.br</strong>
                 </div>
 
                 <p>
@@ -1438,7 +1438,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                 </p>
 
                 <div class="destaque">
-                    <strong>📂 Pasta de estágio completa</strong>
+                    <strong> Pasta de estágio completa</strong>
                 </div>
 
                 <p>
@@ -1447,7 +1447,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                 </p>
 
                 <div class="destaque">
-                    <strong>📧 estagios.cvd@ifmt.edu.br</strong>
+                    <strong> estagios.cvd@ifmt.edu.br</strong>
                 </div>
             </div>
 
@@ -1463,7 +1463,7 @@ Fique atento aos canais oficiais da instituição para acompanhar as datas de in
                     dentro do prazo estabelecido.
                 </p>
             </div>
-            <div class="passo"> <h3>📄 Documento de Agendamento de Estágio</h3> <iframe src="img/estetcc.pdf" width="100%" height="500" style="border: none;"> </iframe> </div>
+            <div class="passo"> <h3> Documento de Agendamento de Estágio</h3> <iframe src="img/estetcc.pdf" width="100%" height="500" style="border: none;"> </iframe> </div>
         </div>
     `
 },
@@ -2076,7 +2076,7 @@ Abrir documento
 
     <div class="passo">
 
-        <h3>📄 1. Baixe o requerimento</h3>
+        <h3> 1. Baixe o requerimento</h3>
 
         <p>
             Para solicitar a segunda via de documentos escolares,
@@ -2085,7 +2085,7 @@ Abrir documento
 
         <a href="https://docs.google.com/document/d/1IWv0PLYCzejZnJTdrD7BG8FPQkfVx3xJXtdXZTKncc0/edit?tab=t.0
         target="_blank">
-            📥 Requerimento
+             Requerimento
         </a>
 
     </div>
@@ -2205,7 +2205,7 @@ Abrir documento
 
     <div class="passo">
 
-        <h3>📧 7. Envie para a Secretaria</h3>
+        <h3> 7. Envie para a Secretaria</h3>
 
         <p>
             Depois de preencher e assinar o requerimento,
@@ -2214,7 +2214,7 @@ Abrir documento
         </p>
 
         <p>
-            <strong>📧 secretaria.cvd@ifmt.edu.br</strong>
+            <strong> secretaria.cvd@ifmt.edu.br</strong>
         </p>
 
     </div>
@@ -2318,7 +2318,7 @@ Além do formulário preenchido, reúna os documentos necessários de
 acordo com sua condição profissional.
 </p>
 
-<h4>👷 I – Empregado</h4>
+<h4> I – Empregado</h4>
 
 <p>
 a) Carteira de Trabalho e Previdência Social (CTPS).
@@ -2332,7 +2332,7 @@ de formação por período igual ou superior ao Estágio Curricular
 Obrigatório previsto no PPC.
 </p>
 
-<h4>🏢 II – Empresário</h4>
+<h4> II – Empresário</h4>
 
 <p>
 a) Cartão do CNPJ da instituição.
@@ -2348,7 +2348,7 @@ igual ou superior ao Estágio Curricular Obrigatório.
 c) Nota Fiscal de Prestação de Serviço de Pessoa Jurídica.
 </p>
 
-<h4>👤 III – Autônomo</h4>
+<h4> III – Autônomo</h4>
 
 <p>
 a) Comprovante de registro na prefeitura.
@@ -2704,7 +2704,7 @@ A retirada do certificado ou da declaração será realizada
 
 <div class="passo">
 
-<h3>🎥 10. Vídeos tutoriais</h3>
+<h3> 10. Vídeos tutoriais</h3>
 
 <p>
 Para facilitar o preenchimento e a realização da solicitação,
@@ -2838,7 +2838,7 @@ diretamente para o livro.
 
 <div class="passo">
 
-<h3>📄 Tutorial completo</h3>
+<h3> Tutorial completo</h3>
 
 <p>
 Para consultar o passo a passo completo, acesse o tutorial em PDF abaixo:
@@ -2847,7 +2847,7 @@ Para consultar o passo a passo completo, acesse o tutorial em PDF abaixo:
 
 <a href="img/Tutorial_Bibliotecarios.pdf" target="_blank">
 
-📥 Abrir Tutorial de Acesso à Biblioteca Virtual Pearson
+ Abrir Tutorial de Acesso à Biblioteca Virtual Pearson
 </a>
 
 </div>
