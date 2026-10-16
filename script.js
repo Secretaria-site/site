@@ -1,4 +1,5 @@
 
+
 const assuntos = [
 
 
@@ -3215,7 +3216,7 @@ A última página do Histórico Final e o verso do Diploma possuem informações
 const categorias = [
   {
     nome: "Matrícula e Vida Acadêmica",
-    ids: [2, 5, 6, 14, 18, 20, 21, 24, 25, 26, 27]
+    ids: [2, 5, 6, 14, 18, 21, 24, 25, 26, 27]
   },
   {
     nome: "Solicitações e Requerimentos",
@@ -3232,6 +3233,10 @@ const categorias = [
   {
     nome: "Documentos & Outros",
     ids: [7, 9, 10, 13, 16, 23]
+  },
+  {
+    nome: "Rematrícula",
+    ids: [20]
   }
 ];
 
