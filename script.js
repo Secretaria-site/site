@@ -3211,14 +3211,30 @@ A última página do Histórico Final e o verso do Diploma possuem informações
 
 ];
 
+
 const categorias = [
-  { nome: "Requerimentos e SUAP", ids: [2, 10, 18, 20, 27,8,22] }, 
-  { nome: "Provas & Notas", ids: [, 21, 24] },
-  { nome: "Currículos & PPCs", ids: [4, 6, 15, 19] },
-  { nome: "E-mail & Contas", ids: [1, 3, 11, 12, 17] },
-  { nome: "Documentos & Outros", ids: [5, 7, 13, 14, 23, 25, 26,9,16] },
-  { nome: "Rematrícula", ids: [20] },
+  {
+    nome: "Matrícula e Vida Acadêmica",
+    ids: [2, 5, 6, 14, 18, 20, 21, 24, 25, 26, 27]
+  },
+  {
+    nome: "Solicitações e Requerimentos",
+    ids: [8, 22]
+  },
+  {
+    nome: "Currículos & PPCs",
+    ids: [4, 15, 19]
+  },
+  {
+    nome: "E-mail & Contas",
+    ids: [1, 3, 11, 12, 17]
+  },
+  {
+    nome: "Documentos & Outros",
+    ids: [7, 9, 10, 13, 16, 23]
+  }
 ];
+
 
 const cores = ["verde", "laranja", "lima", "escuro", "verde-escuro"];
 const estado = { busca: "", categoria: "Todos", aberto: null };
