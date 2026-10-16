@@ -3212,7 +3212,7 @@ A última página do Histórico Final e o verso do Diploma possuem informações
 ];
 
 const categorias = [
-  { nome: "Requerimentos e SUAP", ids: [2, 10, 18, 27,8,22] }, ADCIONA ReadableByteStreamController, ENCCEJA
+  { nome: "Requerimentos e SUAP", ids: [2, 10, 18, 20, 27,8,22] }, 
   { nome: "Provas & Notas", ids: [, 21, 24] },
   { nome: "Currículos & PPCs", ids: [4, 6, 15, 19] },
   { nome: "E-mail & Contas", ids: [1, 3, 11, 12, 17] },
