@@ -3212,12 +3212,11 @@ A última página do Histórico Final e o verso do Diploma possuem informações
 ];
 
 const categorias = [
-  { nome: "Matrícula & SUAP", ids: [2, 10, 18, 20, 27] },
-  { nome: "Provas & Notas", ids: [16, 21, 24] },
-  { nome: "Presença & Faltas", ids: [8, 9, 22] },
+  { nome: "Requerimentos e SUAP", ids: [2, 10, 18, 20, 27,8,22] },
+  { nome: "Provas & Notas", ids: [, 21, 24] },
   { nome: "Currículos & PPCs", ids: [4, 6, 15, 19] },
   { nome: "E-mail & Contas", ids: [1, 3, 11, 12, 17] },
-  { nome: "Documentos & Outros", ids: [5, 7, 13, 14, 23, 25, 26] },
+  { nome: "Documentos & Outros", ids: [5, 7, 13, 14, 23, 25, 26,9,16] },
 ];
 
 const cores = ["verde", "laranja", "lima", "escuro", "verde-escuro"];
